@@ -15,15 +15,17 @@ body {
     margin:auto;
     display: flex;
     justify-content: space-between;
+
 }
 h3{ 
     color:#680a11;
     font-size: 12px;
+    font-weight: bold;
     padding-top: 325px;
-    padding-bottom:20px ;
-    padding-left: 150px;
+    padding-bottom:0px ;
+    padding-left: 140px;
 }
-
+/*links*/
 img{
     margin-right: 50px;
     margin-left:5px;
@@ -51,10 +53,11 @@ h1{
     font-size: 20px;
     text-align: justify;
 }
-.header-image {
+/*.header-image {
     width: 100%;
     height: auto;
-}
+}*/
+/*sentence*/
 h2{
     background-color:#EF92D5;
     height: 0px;
@@ -69,10 +72,10 @@ h2{
 /*footer*/
 
 footer{
-    margin-top:0px;
+    margin-top:50px;
     background-color:#FD0DBA;
     margin-left: 9px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 p{
