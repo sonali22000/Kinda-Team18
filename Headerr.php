@@ -117,6 +117,28 @@ p{
         margin: 0 0 16px 0;
     
     }
+    /* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
 }
 
     </style>
@@ -130,7 +152,7 @@ p{
             <ul>
               <ul>
                 <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
-                <img src="logo.png" class="rounded" alt="Logo" width="100" height="75">
+                <img src="image/logo.png" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="activities.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
