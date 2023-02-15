@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<?php include "headerr.php" ?>
+<?php include "Headerr.php" ?>
 
-
-<div class="row">
+                     
+                <div class="row">
                     <div class="col-md-4 text-center">
             
                 <div class="card" style="wwidth: 18rem;">
@@ -32,16 +32,14 @@
                   </div>
                 </div>
             </div>
-
-     
-    </div>
+        
+               
 </body> 
 </html>
+<?php include "Footer1.php" ?>
 
 
 
 
 
 
-
-<?php include "footer1.php" ?>
