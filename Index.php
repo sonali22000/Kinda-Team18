@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include "Headerr.php" ?>
+<?php include "headerr.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
    
    <div class="card text-bg-dark">
@@ -12,7 +12,7 @@
 <h2><b>We are group of teachers  who really  love children's and enjoy every moment of teaching and playing with 
         our students.</b></h2>
 
-<?php include "Footer1.php" ?>
+<?php include "footer1.php" ?>
 
 
 
