@@ -138,7 +138,7 @@ p{
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
-}
+
 
     </style>
 </head>
