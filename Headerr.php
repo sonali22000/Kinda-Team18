@@ -130,10 +130,10 @@ p{
               <ul>
                 <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
                 <img src="logo.png" class="rounded" alt="Logo" width="100" height="75">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="activitiesneda.html">Activities</a></li>
-                <li><a href="contactasiri.html">Contact</a></li>
-                <a class="btn btn-danger" href="enrollsonali.html" role="button">Enroll Today</a>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="activities.php">Activities</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <a class="btn btn-danger" href="enroll.php" role="button">Enroll Today</a>
               </ul>
                    
             </ul>
