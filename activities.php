@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include "Headerr.php" ?>
+<?php include "headerr.php" ?>
 
                      
                 <div class="row">
@@ -36,7 +36,7 @@
                
 </body> 
 </html>
-<?php include "Footer1.php" ?>
+<?php include "footer1.php" ?>
 
 
 
