@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <?php include "headerr.php" ?>
-
-
-        <div class="row">
-            <div class="col-md-6">
-            <img src="image/contactimg.png" alt="contact" class="rounded" width="500" height="650">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<div class="row1">
+            <div class="column">
+            <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80" alt="contact"class="rounded" width="800" height="850">
             </div>
             <div class="col-md-6" style="text-align:left;">
             <ul style="list-style-type:none;">
