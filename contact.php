@@ -7,7 +7,7 @@
 
         <div class="row">
             <div class="col-md-6">
-            <img src="image/contactimg.png" alt="contact" class="rounded" width="500" height="650">
+            <img src="image/contactimg.jpg" alt="contact" class="rounded" width="500" height="650">
 
             </div>
             <div class="col-md-6" style="text-align:left;">

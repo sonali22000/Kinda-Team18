@@ -152,7 +152,7 @@ p{
             <ul>
               <ul>
                 <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
-                <img src="images/logo.png" class="rounded" alt="Logo" width="100" height="75">
+                <img src="images/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="activities.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
