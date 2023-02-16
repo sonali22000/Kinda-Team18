@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <?php include "headerr.php" ?>
-<HEAD>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<div class="row1">
 <div class="row">
-            <div class="container">
-    <header class="site_header">
-        <div class="wrapper"></div>
-        <nav>
+<img class="header-image" src="https://th.bing.com/th/id/OIP.UeFNYlBO1xM03hoOFjU0mQAAAA?pid=ImgDet&rs=1 " alt="background image"class="rounded" width="500" height="400">>
+</div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-            <ul>
-                <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
-                <img src="https://s3-alpha-sig.figma.com/img/7b4f/4065/9da1c8818617ab8b0b0795c9e548b738?Expires=1675036800&Signature=XBIWY8922dJJdlpFnwhFKn7QSYlmbNEeg~Ii2Hzmw06P5VfdcCQV-Ek27snvBZhECcFnwiaiTggscfn4kznrylCGIyU-dfzCGvxjxlgVbfFTRqaBlJIY0t6KZzb35fS9Gk~ce8jFCLotrTNF9uKzT232HdD91IFvCyZq0WA-teELgOMdoD4qe74Qbgo3hxrPdp~9e-arRx3gySWrG4kQTF0jWgdtM1EEaMjs5IQBDN2iB--vFzz~f1ZN3WFpXrjcOO3Q8ucI4fCuPri4c7fg-9ngXN9zDzivHxwdhIIYM-Lhh0dvg~qyh7Xg0FulyMGB1zEOwNhrtID9t6hwH7TwgA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="rounded" alt="Logo" width="100" height="75">
-                <li><a href="indexkushani.html">Home</a></li>
-                <li><a href="activitiesneda.html">Activities</a></li>
-                <li><a href="contactasiri.html">Contact</a></li>
-                <a class="btn btn-danger" href="enrollsonali.html" role="button">Enroll Today</a>
-            </ul>
-                </nav>
+
+    <div class="row">
+        <div class="col-md-12">
+        <h4><b><i>ADMISSION OPEN FOR 2023</i></b></h4>
+        </div>
+    </div>  
+    <div class="row">
+        <div class="col-md-12 text-center">
+        <h5><b> Download our enrollment form and email to</b></h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+        <h6><b> info@twinklingstars.fi</b></h6>  
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+        <a class="btn btn-danger" href="page 5" role="button">Enrollment form</a>
+        </div>
+    
+    
 </div>
-</div>
+
 
 <?php include "footer1.php" ?>
