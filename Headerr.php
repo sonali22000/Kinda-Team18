@@ -18,11 +18,28 @@ body {
     justify-content: space-between;
 
 }
+h1{
+    font-size: 20px;
+    text-align: justify;
+}
+/*sentence*/
+h2{
+    background-color:#EF92D5;
+    height: 0px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-size: 18px;
+    
+}
+/*lcard text*/
 h3{ 
     color:#680a11;
     font-size: 12px;
     font-weight: bold;
-    padding-top: 325px;
+    padding-top: 0px;
     padding-bottom:0px ;
     padding-left: 140px;
 }
@@ -50,26 +67,12 @@ nav ul {
     text-align: center;
 
 }
-h1{
-    font-size: 20px;
-    text-align: justify;
-}
+
 /*.header-image {
     width: 100%;
     height: auto;
 }*/
-/*sentence*/
-h2{
-    background-color:#EF92D5;
-    height: 0px;
-    padding-top: 20px;
-    padding-bottom:20px ;
-    padding-left: 20px;
-    text-align: center;
-    font-size: 22px;
-    font-size: 18px;
-    
-}
+
 /*footer*/
 
 footer{
@@ -152,11 +155,11 @@ p{
             <ul>
               <ul>
                 <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
-                <img src="image/logo.png" class="rounded" alt="Logo" width="100" height="75">
+                <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="activities.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <a class="btn btn-danger" href="enroll.php" role="button">Enroll Today</a>
+                <a class="btn btn-danger" href="enrollment.php" role="button">Enroll Today</a>
               </ul>
                    
             </ul>
