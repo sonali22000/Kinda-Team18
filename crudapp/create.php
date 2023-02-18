@@ -1,4 +1,17 @@
-<?php include "headerr.php" ?>
+<?php
+$title="crup app for kindergarten";
+include "headerr.php" ?>
+
+
+<!-- creating form for kidsinfo-->
+<form>
+
+
+
+
+</form>
+
+
 
 
 
