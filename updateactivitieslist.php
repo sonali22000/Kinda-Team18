@@ -13,28 +13,28 @@ $row = mysqli_fetch_array($result)
 ?>
 <h2> Update your information below </h2>
 
-<form  method="post"  action=""> 
+<form  name="update"  method="post"  action=""> 
  <div class="row">
     <div class="col">
-    <input type="text" name="aname" required placeholder="Activities Name" class="form-control" ></div>
+    <input type="text" name="aname" required placeholder="Activities Name"  value = "<?php echo $row['aname'];?>" class="form-control" ></div>
     
     <div class="col">
-    <input type="text" name="description" required placeholder="Description" class="form-control"></div>
+    <input type="text" name="description" required placeholder="Description" value = "<?php echo $row['description'];?>" class="form-control"></div>
 
     <div class="col">
-    <input type="text" name="location" required placeholder="Location" class="form-control"> <br></div>
+    <input type="text" name="location" required placeholder="Location" value = "<?php echo $row['location'];?>" class="form-control"> <br></div>
  </div> 
 
 
  <div class="row">
    <div class="col">
-   <input type="text" name="startdate" required placeholder="Start Date" class="form-control" > </div>
+   <input type="text" name="startdate" required placeholder="Start Date" value = "<?php echo $row['startdate'];?>" class="form-control" > </div>
 
    <div class="col">
-   <input type="text" name="enddate" required placeholder="End Date" class="form-control" > </div>
+   <input type="text" name="enddate" required placeholder="End Date" value = "<?php echo $row['enddate'];?>" class="form-control" > </div>
 
    <div class="col">
-   <input type="text" name="capacity" required placeholder="Capacity" class="form-control" ><br> </div>
+   <input type="text" name="capacity" required placeholder="Capacity" value = "<?php echo $row['capacity'];?>" class="form-control" ><br> </div>
  </div>
 
 
