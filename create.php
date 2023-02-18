@@ -1,6 +1,6 @@
 <?php
 $title="crup app for kindergarten";
-include "headerr.php" ?>
+include "headerr.php"?>
 
 
 <!-- creating form for kidsinfo-->
@@ -8,13 +8,13 @@ include "headerr.php" ?>
 <form  method="post"  action=""> 
  <div class="row">
     <div class="col">
-    <input type="text" name="fname" required placeholder="Kids First Name" class="form-control" > </div>
+    <input type="text" name="fname" required placeholder="Kids First Name" class="form-control" ></div>
     
     <div class="col">
     <input type="text" name="lname" required placeholder="Kids Last Name" class="form-control"></div>
 
     <div class="col">
-    <input type="text" name="parentsname" required placeholder="Parents Name" class="form-control"></div>
+    <input type="text" name="parentsname" required placeholder="Parents Name" class="form-control"> <br></div>
  </div> 
 
 
@@ -26,7 +26,7 @@ include "headerr.php" ?>
    <input type="text" name="phone" required placeholder="Phone Number" class="form-control" > </div>
 
    <div class="col">
-   <input type="text" name="address" required placeholder="Address" class="form-control" > </div>
+   <input type="text" name="address" required placeholder="Address" class="form-control" ><br> </div>
  </div>
 
 
@@ -35,10 +35,6 @@ include "headerr.php" ?>
    <input type="submit" value="Submit" name="Submit"></div>
  </div>
 </form>
-
-
-
-
 
 
 <?php include "footer1.php" ?>
