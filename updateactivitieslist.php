@@ -40,7 +40,9 @@ $row = mysqli_fetch_array($result)
 
  <div class="row"> 
    <div class="col">
-   <input type="submit" value="Submit" name="Submit"></div>
+   <input type="submit" value="Update your Information" name="Update"></div>
+   <div class="col">
+   <input type="submit" value="Delete your Information" name="Delet"></div>
  </div>
 </form>
 
@@ -69,6 +71,9 @@ $row = mysqli_fetch_array($result)
         $lname = $_POST['lname'];
         $city = $_POST['city'];
         $groupid = $_POST['groupid'];
+
+
+
 
         $query = mysqli_query($conn, "delete from studentinfo where id = '$a'");
 
