@@ -37,4 +37,25 @@ include "headerr.php"?>
 </form>
 
 
+<!--Getting values from end user-->
+<?php
+if(isset($_POST['submit'])){
+    $fname=$_POST['fname'];
+    $lname=$_POST['lname'];
+    $parentsname=$_POST['parentsname'];
+    $dob=$_POST['dob'];
+    $phone=$_POST['phone'];
+    $address=$_POST['address'];
+    include 'db.php';
+    $sql="insert into kidsinfo(fname,lname,parentsname,dob,phone,address)
+    values('$fname','$lname','$parentsname', '$dob', '$phone', '$address')";
+    if($conn->query($sql)===TRUE){
+        echo"Your information is added successfully";
+    }
+    else{
+        echo"Erro: .$conn->error";
+    }
+}
+?>
+
 <?php include "footer1.php" ?>
