@@ -40,15 +40,15 @@ include "headerr.php"?>
 <?php
 //Getting values from end user
 if(isset($_POST['submit'])){
-    $fname=$_POST['fname'];
-    $lname=$_POST['lname'];
-    $parentsname=$_POST['parentsname'];
-    $dob=$_POST['dob'];
-    $phone=$_POST['phone'];
-    $address=$_POST['address'];
+    $aname=$_POST['aname'];
+    $description=$_POST['description'];
+    $location=$_POST['location'];
+    $startdate=$_POST['startdate'];
+    $enddate=$_POST['enddate'];
+    $capacity=$_POST['capacity'];
     include 'db.php';
-    $sql="insert into kidsinfo(fname,lname,parentsname,dob,phone,address)
-    values('$fname','$lname','$parentsname', '$dob', '$phone', '$address')";
+    $sql="insert into kidsinfo(aname,description,location,startdate,enddate,capacity)
+    values('$aname','$description','$location', '$startdate', '$enddate', '$capacity')";
     if($conn->query($sql)===TRUE){
         echo"Your information is added successfully";
     }
