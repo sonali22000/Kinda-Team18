@@ -49,11 +49,15 @@ if(isset($_POST['submit'])){
     $sql="insert into kidsinfo(fname,lname,email,phone,address,bio)
     values('$fname','$lname','$email', '$phone', '$address', '$bio')";
     if($conn->query($sql)===TRUE){
-        echo"Your information is added successfully";
-    }
-    else{
-        echo"Erro: .$conn->error";
-    }
+                
+      echo"Your information is added successfully";
+
+  }
+  else{
+
+      echo"Error:" .$conn->error;
+
+  }
 }
 ?>
 
