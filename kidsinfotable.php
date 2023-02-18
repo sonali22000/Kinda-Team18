@@ -1,6 +1,6 @@
 <?php
 $title="crup app for kindergarten";
-include "../layout/headerr.php"?>
+include "headerr.php"?>
 
 
 <!-- creating form for kidsinfo-->
@@ -58,4 +58,4 @@ if(isset($_POST['submit'])){
 }
 ?>
 
-<?php include "../layout/footer1.php" ?>
+<?php include "footer1.php" ?>
