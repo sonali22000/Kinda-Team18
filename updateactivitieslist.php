@@ -40,9 +40,9 @@ $row = mysqli_fetch_array($result)
 
  <div class="row"> 
    <div class="col">
-   <input type="submit" value="Update your Information" name="Update"></div>
+   <input type="submit" value="Enter New Activities" name="Update"></div>
    <div class="col">
-   <input type="submit" value="Delete your Information" name="Delet"></div>
+   <input type="submit" value="Delete Activity List" name="Delet"></div>
  </div>
 </form>
 
