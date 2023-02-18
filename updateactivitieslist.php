@@ -7,24 +7,41 @@ include 'db.php';
 
 $a = $_GET['id'];
 $result = mysqli_query($conn, "select * from studentInfo where id = '$a'");
+
 $row = mysqli_fetch_array($result)
 
 ?>
 <h2> Update your information below </h2>
 
-<form name = "update" method = "post" action = "">
-<input type ="text" name ="fname" placeholder="First Name" required value = "<?php echo $row['fname'];?>"> <br><br>
-    <input type ="text" name ="lname" placeholder="Last Name" required value = "<?php echo $row['lname'];?>"> <br><br>
-    <input type ="text" name ="city" placeholder="City" required value = "<?php echo $row['city'];?>"><br><br>
+<form  method="post"  action=""> 
+ <div class="row">
+    <div class="col">
+    <input type="text" name="aname" required placeholder="Activities Name" class="form-control" ></div>
+    
+    <div class="col">
+    <input type="text" name="description" required placeholder="Description" class="form-control"></div>
 
-    <select name="groupid" value = "<?php echo $row['groupid'];?>">
-            <option value="Group1"> Group1 </option>
-            <option value="Group2"> Group2 </option>
-            <option value="Group3"> Group3 </option>
-        </select><br><br>
-<input type ="submit" value ="update your information" name="update" >
-<input type ="submit" value ="delete your information" name="delete" >
+    <div class="col">
+    <input type="text" name="location" required placeholder="Location" class="form-control"> <br></div>
+ </div> 
 
+
+ <div class="row">
+   <div class="col">
+   <input type="text" name="startdate" required placeholder="Start Date" class="form-control" > </div>
+
+   <div class="col">
+   <input type="text" name="enddate" required placeholder="End Date" class="form-control" > </div>
+
+   <div class="col">
+   <input type="text" name="capacity" required placeholder="Capacity" class="form-control" ><br> </div>
+ </div>
+
+
+ <div class="row"> 
+   <div class="col">
+   <input type="submit" value="Submit" name="Submit"></div>
+ </div>
 </form>
 
 <?php
