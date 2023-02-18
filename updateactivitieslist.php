@@ -55,7 +55,7 @@ $row = mysqli_fetch_array($result)
         $startdate=$_POST['startdate'];
         $enddate=$_POST['enddate'];
         $capacity=$_POST['capacity'];
-        $query = mysqli_query($conn, "UPDATE studentinfo set 
+        $query = mysqli_query($conn, "UPDATE activitieslist set 
         aname = '$aname', description = '$description', location = '$location', startdate = '$startdate',
         enddate = '$enddate', capacity = '$capacity'
         where id = '$a'");
@@ -69,22 +69,23 @@ $row = mysqli_fetch_array($result)
             }
     }
     if (isset($_POST['delete'])){
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $city = $_POST['city'];
-        $groupid = $_POST['groupid'];
-
-
-
-
-        $query = mysqli_query($conn, "delete from studentinfo where id = '$a'");
+        $aname=$_POST['aname'];
+        $description=$_POST['description'];
+        $location=$_POST['location'];
+        $startdate=$_POST['startdate'];
+        $enddate=$_POST['enddate'];
+        $capacity=$_POST['capacity'];
+        $query = mysqli_query($conn, "DELETE activitieslist set 
+        aname = '$aname', description = '$description', location = '$location', startdate = '$startdate',
+        enddate = '$enddate', capacity = '$capacity'
+        where id = '$a'");
 
             if ($query){
 
-                echo "<h2> delete Successfully </h2>";
+                echo "<h2>  updated Successfully </h2>";
             }
             else{
-                echo "<h2> Not delete </h2>";
+                echo "<h2> Not update </h2>";
             }
     }
 
