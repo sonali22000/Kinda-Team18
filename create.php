@@ -37,8 +37,8 @@ include "headerr.php"?>
 </form>
 
 
-<!--Getting values from end user-->
 <?php
+//Getting values from end user
 if(isset($_POST['submit'])){
     $fname=$_POST['fname'];
     $lname=$_POST['lname'];
