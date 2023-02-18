@@ -49,13 +49,15 @@ $row = mysqli_fetch_array($result)
 <?php
 
     if (isset($_POST['update'])){
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $city = $_POST['city'];
-        $groupid = $_POST['groupid'];
-
+        $aname=$_POST['aname'];
+        $description=$_POST['description'];
+        $location=$_POST['location'];
+        $startdate=$_POST['startdate'];
+        $enddate=$_POST['enddate'];
+        $capacity=$_POST['capacity'];
         $query = mysqli_query($conn, "UPDATE studentinfo set 
-        fname = '$fname', lname = '$lname', city = '$city', groupid = '$groupid'
+        aname = '$aname', description = '$description', location = '$location', startdate = '$startdate',
+        enddate = '$enddate', capacity = '$capacity'
         where id = '$a'");
 
             if ($query){
