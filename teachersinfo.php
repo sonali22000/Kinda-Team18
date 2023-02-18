@@ -2,9 +2,7 @@
 $title="crup app for kindergarten";
 include "headerr.php"?>
 
-
-<!-- creating form for kidsinfo-->
-
+<!-- creating form for teachersinfo-->
 <form  method="post"  action=""> 
  <div class="row">
     <div class="col">
@@ -48,8 +46,8 @@ if(isset($_POST['submit'])){
     $address=$_POST['address'];
     $bio=$_POST['bio'];
     include 'db.php';
-    $sql="insert into kidsinfo(fname,lname,parentsname,dob,phone,address)
-    values('$fname','$lname','$parentsname', '$dob', '$phone', '$address')";
+    $sql="insert into kidsinfo(fname,lname,email,phone,address,bio)
+    values('$fname','$lname','$email', '$phone', '$address', '$bio')";
     if($conn->query($sql)===TRUE){
         echo"Your information is added successfully";
     }
