@@ -1,9 +1,9 @@
 <?php
 
 $servername = "db";
-$username = "team18";
-$password = "team18";
-$dbname = "kindadb";
+$username = "cappteam18";
+$password = "kindergarten";
+$dbname = "cappteam18";
 
 //creating connection
 
