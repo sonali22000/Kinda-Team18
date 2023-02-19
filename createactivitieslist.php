@@ -20,10 +20,10 @@ include "headerr.php"?>
 
  <div class="row">
    <div class="col">
-   <input type="text" name="startdate" required placeholder="Start Date" class="form-control" > </div>
+   <input type="text" name="startdate" required placeholder="Please Enter Activity Start Date" class="form-control" > </div>
 
    <div class="col">
-   <input type="text" name="enddate" required placeholder="End Date" class="form-control" > </div>
+   <input type="text" name="enddate" required placeholder="Please Enter Activity End Date" class="form-control" > </div>
 
    <div class="col">
    <input type="text" name="capacity" required placeholder="Capacity" class="form-control" ><br> </div>
