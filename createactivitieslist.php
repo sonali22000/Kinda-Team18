@@ -28,6 +28,7 @@ include "headerr.php"?>
    <div class="col">
    <input type="text" name="capacity" required placeholder="Capacity" class="form-control" ><br> </div>
  </div>
+ 
 
 
  <div class="row"> 
@@ -51,7 +52,7 @@ if(isset($_POST['submit'])){
     values('$aname','$description','$location', '$startdate', '$enddate', '$capacity')";
     if($conn->query($sql)===TRUE){
                 
-      echo"Your information is added successfully";
+      echo"Your datas are added successfully";
 
   }
   else{
