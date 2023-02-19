@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
     $address=$_POST['address'];
     $bio=$_POST['bio'];
     include 'db.php';
-    $sql="insert into kidsinfo(fname,lname,email,phone,address,bio)
+    $sql="insert into teachersinfo(fname,lname,email,phone,address,bio)
     values('$fname','$lname','$email', '$phone', '$address', '$bio')";
     if($conn->query($sql)===TRUE){
                 

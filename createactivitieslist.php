@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
     $enddate=$_POST['enddate'];
     $capacity=$_POST['capacity'];
     include 'db.php';
-    $sql="insert into kidsinfo(aname,description,location,startdate,enddate,capacity)
+    $sql="insert into activitieslist(aname,description,location,startdate,enddate,capacity)
     values('$aname','$description','$location', '$startdate', '$enddate', '$capacity')";
     if($conn->query($sql)===TRUE){
                 
