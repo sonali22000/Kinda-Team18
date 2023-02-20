@@ -20,13 +20,13 @@ include "headerr.php"?>
 
  <div class="row">
    <div class="col">
-   <input type="text" name="startdate" required placeholder="Please Enter Activity Start Date" class="form-control" > </div>
+   <input type="date" name="startdate" required placeholder="Please Enter Activity Start Date" class="form-control" > </div>
 
    <div class="col">
-   <input type="text" name="enddate" required placeholder="Please Enter Activity End Date" class="form-control" > </div>
+   <input type="date" name="enddate" required placeholder="Please Enter Activity End Date" class="form-control" > </div>
 
    <div class="col">
-   <input type="text" name="capacity" required placeholder="Capacity" class="form-control" ><br> </div>
+   <input type="int" name="capacity" required placeholder="Capacity" class="form-control" ><br> </div>
  </div>
  
 
@@ -40,7 +40,7 @@ include "headerr.php"?>
 
 <?php
 //Getting values from end user
-if(isset($_POST['submit'])){
+if(isset($_POST['Submit'])){
     $aname=$_POST['aname'];
     $description=$_POST['description'];
     $location=$_POST['location'];
