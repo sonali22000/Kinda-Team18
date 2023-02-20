@@ -11,9 +11,7 @@ include "headerr.php"?>
     <div class="col-md-6">
     <h4><b>Applying for the post of Kindergarden Teacher</b></h4>
     </div>
-    <div class="col-md-6" style="text-align:left;">
-    <input type="text" name="aname" required placeholder="Name" class="form-control" ><br>
-    </div>
+
  </div>    
 
  <div class="row">
@@ -26,51 +24,38 @@ include "headerr.php"?>
         children.</p>
     </div>
     <div class="col-md-6" style="text-align:left;">
+    <input type="text" name="aname" required placeholder="Name" class="form-control" ><br>
     <input type="text" name="phoneno" required placeholder="Contact number" class="form-control"><br>
+    <input type="text" name="email" required placeholder="email" class="form-control"><br>
+    <input type="submit" value="submit" name="submit" >
     </div>
  </div>   
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
  <div class="row">
     <div class="col-md-6">
     <h5>Responsibilities </h5>
-    <p>* Design and follow a complete teaching plan</p>
-    <p>* Teach alphabet and numeracy along with personal, social and emotional skills</p>
-    <p>* Organize learning material and resources</p>
-    </div>
-    <div class="col-md-6" style="text-align:left;">
-    <input type="text" name="email" required placeholder="email" class="form-control"><br>
+    <p1>* Design and follow a complete teaching plan</p1><br>
+    <p1>* Teach alphabet and numeracy along with personal, social and emotional skills</p1><br>
+    <p1>* Organize learning material and resources</p1>
     </div>
  </div> 
- <br>
-
+ 
  </select><br><br>
  <div class="row">
     <div class="col-md-6">
     <h5>Requirements</h5>
-    <p>* Excellent knowledge of child development and latest education theories and practices</p>
-    <p>* Teaching and organisation skills</p>
-    <p>* Creative and artistic teaching abilities</p>
-    <p>* Patience and flexibility</p>
-    <p>* Strong communication skills</p>
-    </div>
-    <div class="col-md-6" style="text-align:left;">
-    <input type="submit" value="submit" name="submit" >
+    <p1>* Excellent knowledge of child development and latest education theories and practices</p1><br>
+    <p1>* Teaching and organisation skills</p1><br>
+    <p1>* Creative and artistic teaching abilities</p1><br>
+    <p1>* Patience and flexibility</p1><br>
+    <p1>* Strong communication skills</p1>
     </div>
 </div>
 
-
-
-
 </form>
-
-
-
 
 <?php include "footer1.php" ?>
