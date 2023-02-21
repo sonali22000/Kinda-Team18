@@ -32,13 +32,20 @@
                   </div>
                 </div>
             </div>
-<br>
+<br> <br>
 
 
 
  <!-- creating form for program in kindergarten-->
 
 <form  method="post"  action=""> 
+
+<div class="row">
+    <div class="col-md-6">
+    <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
+    </div>
+
+ </div>    
 
 
 <div class="row">
@@ -81,14 +88,14 @@
 
 <div class="row"> 
   <div class="col-md-3">
-  <input type="submit" value="Submit" name="Submit"> <br> </div>
+  <input type="submit" value="Add Program" name="Add Program"> <br> <br> <br> <br> <br> <br>  </div>
 </div>
 </form>
 
 
 <?php
 //Getting values from end user
-if(isset($_POST['Submit'])){
+if(isset($_POST['Add Program'])){
    $pname=$_POST['pname'];
    $description=$_POST['description'];
    $startdate=$_POST['startdate'];
@@ -110,13 +117,14 @@ if(isset($_POST['Submit'])){
 
  }
 }
+
 ?>
-        
+       
                
 </body> 
 </html>
 
-<br>
+
 <?php include "footer1.php" ?>
 
 
