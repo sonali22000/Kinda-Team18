@@ -37,13 +37,7 @@
           </div>
         
 
-<div class="row">
-    <div class="col-md-6" style="color: aliceblue; text-align: center; font-size:35px; color: cornflowerblue; font-weight: bold; font-style: italic;  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-         
-    </div>
-    <div class="col-md-6">         
-        </div>
-    </div>
+
 
 <div class="row">
     <div class="col-md-6" style="color: aliceblue; text-align: center; font-size: larger;">
@@ -55,38 +49,76 @@
   
     
     <div class="row">
-    <div class="col-md-6" style="color: aliceblue; text-align: center; font-size: larger;">
-              <img class="img-fluid" img src="Images/contactus.jpg" alt="Contact Us">
-    </div>
-    <div class="col-md-6" style="color: aliceblue;"> 
-
+    
+              
     <div class="form-group mb-4" style="color: aliceblue;>
-              <label for="name">Your name*:</label>
-              <input id="name" type="text" name="name" class="form-control" placeholder="Example: Dhanushke Perera" style="width: 500px" required></input>
+              <label for="teid">Teacher ID:</label>
+              <input id="teid" type="text" name="teid" class="form-control" placeholder="Example: 001" style="width: 500px" required></input>
             </div>
             <div class="form-group my-4" style="color: aliceblue;>
-              <label for="Email">E-mail address*:</label>
-              <input id="Email" type="email" name="email" class="form-control" placeholder="Example: xxxxxxxa@xxxxx.xxx" style="width: 500px" required>
+              <label for="tname">Teacher Name:</label>
+              <input id="tname" type="text" name="tname" class="form-control" placeholder="Example: Adam Smith" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: aliceblue;>
-              <label for="subject">Subject:</label>
-              <input id="subject" type="text" name="subject" class="form-control" style="width: 500px" required>
+              <label for="phone">Phone Number:</label>
+              <input id="phone" type="number" name="phone" class="form-control" placeholder="Example: 01234567890" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: aliceblue;>
-              <label for="subject">Phone Number*:</label>
-              <input id="subject" type="text" name="subject" class="form-control" style="width: 500px" required>
+              <label for="email">E-mail Address:</label>
+              <input id="email" type="email" name="email" class="form-control" placeholder="Example: xxxxxxxa@xxxxx.xxx" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: aliceblue;>
-              <label for="message">Message*:</label>
-              <textarea id="message" name="body" class="form-control" style="width: 500px" rows="4" placeholder="Your message here please..."  required></textarea>
+              <label for="address">Address:</label>
+              <input id="address" type="address" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: aliceblue;>
-              <button type="submit" class="btn btn btn-yellow btn-outline" >
-              <input type="submit" value="Submit" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
+              <label for="bio">Bio:</label>
+              <textarea id="bio" name="body" class="form-control" style="width: 500px" rows="4" placeholder="Teacher's bio..."  required></textarea>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <button type="view" class="btn btn btn-yellow btn-outline" >
+              <input type="view" value="View" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
             <div>
         
         </div>
+        
+        
+    </div>
     </div>
 </div>
+<div class="row">
+    
+              
+    <div class="form-group mb-4" style="color: aliceblue;>
+              <label for="kidsid">Kids ID:</label>
+              <input id="kidsid" type="text" name="kidsid" class="form-control" placeholder="Example: 001" style="width: 500px" required></input>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <label for="kidsname">Kids Name:</label>
+              <input id="kidsname" type="text" name="kidsname" class="form-control" placeholder="Example: Situ Anna" style="width: 500px" required>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <label for="parentsname">Parents Name:</label>
+              <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Example: Nura Pekka" style="width: 500px" required>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <label for="dob">Kids Birth Day:</label>
+              <input id="dob" type="date" name="dob" class="form-control" placeholder="Example: 05.05.2020" style="width: 500px" required>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <label for="phone">Contact Number:</label>
+              <input id="phone" type="number" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <label for="address">Address:</label>
+              <input id="address" type="address" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
+            </div>
+            <div class="form-group my-4" style="color: aliceblue;>
+              <button type="view" class="btn btn btn-yellow btn-outline" >
+              <input type="view" value="View" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
+            <div>
+        
+        </div>
+
 
 <?php include "footer1.php" ?>
