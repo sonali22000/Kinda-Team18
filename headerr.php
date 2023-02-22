@@ -10,7 +10,7 @@
 body {
     background-color: beige;
     font-family:'Courier New', Courier, monospace;
-    color:#680a11;
+    color: black;
     font-size: 13.5px;
     width: 1080px;
     margin:auto;
