@@ -34,8 +34,7 @@
             </div>
 <br> <br>
 
-</body> 
-</html>
+
 
  <!-- creating form for program in kindergarten-->
 
@@ -89,14 +88,14 @@
 
 <div class="row"> 
   <div class="col-md-3">
-  <input type="submit" value="Add Program" name="Add Program"> <br> <br> <br> <br> <br> <br>  </div>
+  <input type="submit" value="AddProgram" name="AddProgram"> <br> <br> <br> <br> <br> <br>  </div>
 </div>
 </form>
 
 
 <?php
 //Getting values from end user
-if(isset($_POST['Add Program'])){
+if(isset($_POST['AddProgram'])){
    $pname=$_POST['pname'];
    $description=$_POST['description'];
    $startdate=$_POST['startdate'];
