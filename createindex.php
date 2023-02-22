@@ -37,15 +37,15 @@ include "headerr.php"?>
     </div>
     <div class="col-md-6" style="text-align:left;">
     <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
-    <input type="text" name="aname" required placeholder="Last Name" class="form-control" ><br>
+    <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>
     <input type="text" name="address" required placeholder="Postal Address" class="form-control"><br>
-    <input type="text" name="postalsode" required placeholder="Postal Code" class="form-control"><br>
-    <input type="text" name="contactNO" required placeholder="Contact Number" class="form-control"><br>
-    <input type="text" name="emailID" required placeholder="Email" class="form-control"><br><br>
+    <input type="int" name="postalsode" required placeholder="Postal Code" class="form-control"><br>
+    <input type="teintxt" name="contactno" required placeholder="Contact Number" class="form-control"><br>
+    <input type="text" name="emailid" required placeholder="Email" class="form-control"><br><br>
     <span class="material-icons-round" style="font-size:20px;color:blue;">
       <b>upload_cv <b>
    </span><br><br><br>
-   <input type="submit" value="submit" name="submit" >
+   <input type="submit" value="Apply" name="Apply" >
     </div>
  </div>   
    
