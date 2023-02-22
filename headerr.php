@@ -164,7 +164,31 @@ font-weight: bold;
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
+<style>
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 </style>
 </head>
 <body>
