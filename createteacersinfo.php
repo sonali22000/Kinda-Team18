@@ -29,7 +29,7 @@ include "headerr.php"?>
             </div>
             <div class="form-group my-4" style="color: black;>
               <label for="bio">Bio:</label>
-              <textarea name="body" class="form-control" style="width: 500px" rows="4" placeholder="Teacher's bio..."  required></textarea>
+              <textarea name="bio" class="form-control" style="width: 500px" rows="4" placeholder="Teacher's bio..."  required></textarea>
             </div>
             <div class="form-group my-4" style="color: black;>
               <button type="submit" class="btn btn btn-yellow btn-outline" >
