@@ -21,11 +21,11 @@
                 </div>
                 <li>Twinkling Stars Kindergarten  <br>Visamäentie 23,
                 <br>Hämeenlinna 13100</li><br>
-                <li><i class="material-icons" style="font-size:60px;color:blue;">phone</i>415-218-4791</li><br>
+                <li><i class="material-icons" style="font-size:60px;color:black;">phone</i>415-218-4791</li><br>
 
-                <li><i class="material-icons" style="font-size:60px;color:blue;">email</i><a href="mailto:info@twinklingstars.com">info@twinklingstars.com</a></a></li><br>
+                <li><i class="material-icons" style="font-size:60px;color:black;">email</i><a href="mailto:info@twinklingstars.com">info@twinklingstars.com</a></a></li><br>
                 
-                <li><i class="material-icons" style="font-size:60px;color:blue;">facebook</i><a href="https://www.facebook.com/profile.php?id=100089799731637">Like Us On Facebook</a></li><br><br><br>
+                <li><i class="material-icons" style="font-size:60px;color:black;">facebook</i><a href="https://www.facebook.com/profile.php?id=100089799731637">Like Us On Facebook</a></li><br><br><br>
                 <li><a href="createteacersinfo.php"><i class="material-icons" style="font-size:80px;color:black;">diversity_3</i>Our Team</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="createkidsinfo.php"><span class="material-icons" style="font-size:80px;color:black;">sports_kabaddi</span>Our Kids</a></li>
 </span></li>
             </ul>
