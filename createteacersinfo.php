@@ -16,7 +16,7 @@ include "headerr.php"?>
               <input  type="text" name="tname" class="form-control" placeholder="Example: Adam Smith" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="phone">Phone Number:</label>
+              <label for="phone">Phone Number:</label>  
               <input  type="int" name="phone" class="form-control" placeholder="Example: 01234567890" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
