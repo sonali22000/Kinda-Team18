@@ -11,7 +11,7 @@ include "headerr.php"?>
               
     <div class="form-group mb-4" style="color: black;>
               <label for="kidsid">Kids ID:</label>
-              <input id="kidsid" type="text" name="kidsid" class="form-control" placeholder="Example: 001" style="width: 500px" required></input>
+              <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Example: 001" style="width: 500px" required></input>
             </div>
             <div class="form-group my-4" style="color: black;>
               <label for="kidsname">Kids Name:</label>
@@ -27,15 +27,15 @@ include "headerr.php"?>
             </div>
             <div class="form-group my-4" style="color: black;>
               <label for="phone">Contact Number:</label>
-              <input id="phone" type="number" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
+              <input id="phone" type="int" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
               <label for="email">E-mail Address:</label>
-              <input  type="email" name="email" class="form-control" placeholder="Example: xxxxxxxa@xxxxx.xxx" style="width: 500px" required>
+              <input  type="text" name="email" class="form-control" placeholder="Example: xxxxxxxa@xxxxx.xxx" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
               <label for="address">Address:</label>
-              <input id="address" type="address" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
+              <input id="address" type="text" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
               <button type="submit" class="btn btn btn-yellow btn-outline" >
