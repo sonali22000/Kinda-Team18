@@ -86,7 +86,7 @@ footer{
 header
 {
    
-    background-color: #fff;
+   
     
 }
 
@@ -175,7 +175,7 @@ font-weight: bold;
 
             <ul>
               <ul>
-                <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
+                <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
                 <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="createprogram.php">Activities</a></li>
