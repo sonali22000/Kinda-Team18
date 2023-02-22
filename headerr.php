@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
 body {
-    background-color:#EF92D5;
+    background-color: beige;
     font-family:'Courier New', Courier, monospace;
     color:#680a11;
     font-size: 13.5px;
