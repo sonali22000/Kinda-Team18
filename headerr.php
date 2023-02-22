@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
 body {
-    background-color:#EF92D5;
+    background-color: #F0D2D2;
     font-family:'Courier New', Courier, monospace;
-    color:#680a11;
+    color: black;
     font-size: 13.5px;
     width: 1080px;
     margin:auto;
@@ -171,7 +171,7 @@ font-weight: bold;
                 <li><a href="#"><i><b>Twinkling Stars<br>Kindergarten</a></i></b></li>
                 <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="activities.php">Activities</a></li>
+                <li><a href="createprogram.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <a class="btn btn-danger" href="enrollment.php" role="button">Enroll Today</a>
               </ul>
