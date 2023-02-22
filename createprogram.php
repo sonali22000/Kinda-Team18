@@ -34,7 +34,8 @@
             </div>
 <br> <br>
 
-
+</body> 
+</html>
 
  <!-- creating form for program in kindergarten-->
 
@@ -121,8 +122,7 @@ if(isset($_POST['Add Program'])){
 ?>
        
                
-</body> 
-</html>
+
 
 
 <?php include "footer1.php" ?>
