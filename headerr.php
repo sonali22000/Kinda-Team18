@@ -79,7 +79,7 @@ nav ul {
 footer{
     margin-top:50px;
     background-color: #fff;
-    margin-left: 9px;
+  
     margin-bottom: 0px;
 }
 
