@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
 body {
-    background-color: beige;
+    background-color: F0D2D2;
     font-family:'Courier New', Courier, monospace;
     color:#680a11;
     font-size: 13.5px;
@@ -24,7 +24,7 @@ h1{
 }
 /*sentence*/
 h2{
-    background-color:#F0D2D2;
+    background-color:#EF92D5;
     height: 0px;
     padding-top: 20px;
     padding-bottom:20px ;
