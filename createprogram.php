@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <?php include "headerr.php" ?>
-
-            <!-- creating different activities in kindergarten-->               
-                <div class="row">
+ <!-- creating different activities in kindergarten-->               
+ <div class="row">
                     <div class="col-md-4 text-center">
             
                 <div class="card" style="wwidth: 18rem;">
