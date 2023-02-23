@@ -11,12 +11,21 @@
    </div>
 </div>
 <br><h2><b>We are group of teachers  who really  love children's and enjoy every moment of teaching and playing with 
-        our students.</b></h2><br><br><br>
+        our students.</b></h2><br><br>
+
+<p>     The Twinkling Stars Kindergarten District recognizes the significant importance of early education and its impact on 
+        future academic success. Twinkling Stars test results show students exposed to full-day kindergarten have greater 
+        success in learning essential early academic skills. </p>
+
+<p>Twinkling Stars's full-day kindergarten program is developmentally and individually appropriate in addressing cognitive, 
+        social, emotional and physical areas of development. The extra time for the full-day program allows teachers 
+        to challenge students, provide for differentiated instruction, and spend extra time on difficult concepts.</p>      
 
 <!-- creating form for applying teacher-->
 
 <form  method="post"  action=""> 
 
+<br><br><br>
 <div class="row">
     <div class="col">
     <h4><b>Applying for the post of Kindergarden Teacher</b></h4><br><br>
