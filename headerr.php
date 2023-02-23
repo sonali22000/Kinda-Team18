@@ -10,8 +10,7 @@
 body {
     background-color: #F0D2D2;
     font-family:'Courier New', Courier, monospace;
-    color: black;
-    font-size: 13.5px;
+    color:black:
     width: 1080px;
     margin:auto;
     display: flex;
@@ -21,9 +20,11 @@ body {
 h1{
     font-size: 20px;
     text-align: justify;
+    color:black;
 }
 /*sentence*/
 h2{
+    color:black;
     height: 0px;
     padding-top: 20px;
     padding-bottom:20px ;
@@ -40,7 +41,7 @@ h3{
     font-weight: bold;
     padding-top: 0px;
     padding-bottom:00px ;
-    padding-left: 175px;
+    padding-left: 185px;
     margin-top: 220px;
 }
 
@@ -70,7 +71,7 @@ nav ul {
 }
 /*header letter*/
 .nav-item {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     
 
@@ -80,22 +81,24 @@ nav ul {
 /*footer*/
 
 footer{
-    margin-top:50px;
+    margin-top:0px;
     background-color: #fff;
-    margin-left: 9px;
-    margin-bottom: 0px;
+    line-height: 30px;
+  
 }
 
 
-p{
-    height: 0px;
-    padding-top: 20px;
+p1{
+    padding-top:0px;
     padding-bottom:0px ;
     padding-left: 20px;
     text-align: center;
     font-size: 15px;
     text-align: justify;
-    
+    color:black;
+}
+p{
+  color:black;
 }
 
 

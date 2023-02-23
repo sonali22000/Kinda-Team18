@@ -42,7 +42,7 @@ include "headerr.php"?>
 
 <div class="col-md-6">
 <div class="career image">
-           <img src="image/career1.jpg" class="career1-img" alt="image" class="rounded" width="500" height="300">
+           <img src="image/career1.jpg" class="career1-img" alt="image" class="rounded" width="530" height="300">
            <br><br><br>
 </div>
 </div>
@@ -57,17 +57,17 @@ include "headerr.php"?>
         and assessing lessons. You will teach children with patience and creativity. Kindergarten Teacher
         duties include designing a teaching plan and using activities and instructional methods to motivate
         children.</p>
-   <br><br><br><br><br><br><br><br>
+   
    <br><br>
 
     <h5><b>Responsibilities </b></h5>
     <p>* Design and follow a complete teaching plan</p>
-    <p>* Teach alphabet and numeracy along with personal,social and emotional skills </p><br>
+    <p>* Teach alphabet and numeracy along with personal,social and emotional skills </p>
     <p>* Organize learning material and resources</p>
    <br><br>
 
     <h5><b>Requirements</b></h5>
-    <p>* Excellent knowledge of child development and latest education theories and practices</p><br>
+    <p>* Excellent knowledge of child development and latest education theories and practices</p>
     <p>* Teaching and organisation skills</p>
     <p>* Creative and artistic teaching abilities</p>
     <p>* Patience and flexibility</p>
