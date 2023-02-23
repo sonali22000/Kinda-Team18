@@ -13,7 +13,7 @@ include "headerr.php"?>
    </div>
 </div>
 <br><h2><b>We are group of teachers  who really  love children's and enjoy every moment of teaching and playing with 
-        our students.</b></h2><br><br>
+        our students.</b></h2><br><br><br><br>
 
 <p>     The Twinkling Stars Kindergarten District recognizes the significant importance of early education and its impact on 
         future academic success. Twinkling Stars test results show students exposed to full-day kindergarten have greater 
@@ -25,7 +25,7 @@ include "headerr.php"?>
 
 <!-- creating form for applying a teacher-->
 
-<br><br><br>
+<br><br><br><br><br>
 <div class="row">
     <div class="col">
     <h4><b>Applying for the post of Kindergarden Teacher</b></h4><br><br>
@@ -46,7 +46,7 @@ include "headerr.php"?>
 </div>
 </div>   
 
-<br><br> 
+<br><br><br><br><br><br>
  <div class="row">
  <div class="col-md-6" style="text-align: left;">
     <h5>Description</h5>
