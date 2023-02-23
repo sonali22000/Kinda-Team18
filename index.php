@@ -26,13 +26,13 @@
 <div class="row">
 <div class="col-md-6">
 <div class="career image">
-           <img src="image/career.png" class="career-img" alt="image" class="rounded" width="500" height="400">
+           <img src="image/career.png" class="career-img" alt="image" class="rounded" width="500" height="300">
 </div>
 </div>
 
 <div class="col-md-6">
 <div class="career image">
-           <img src="image/career1.jpg" class="career1-img" alt="image" class="rounded" width="500" height="400">
+           <img src="image/career1.jpg" class="career1-img" alt="image" class="rounded" width="500" height="300">
 </div>
 </div>
 </div>   
