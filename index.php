@@ -18,8 +18,9 @@ include "headerr.php"?>
 <p>     The Twinkling Stars Kindergarten District recognizes the significant importance of early education and its impact on 
         future academic success. Twinkling Stars test results show students exposed to full-day kindergarten have greater 
         success in learning essential early academic skills. </p>
+        <br><br><br><br>
 
-<p>Twinkling Stars's full-day kindergarten program is developmentally and individually appropriate in addressing cognitive, 
+<p>     Twinkling Stars's full-day kindergarten program is developmentally and individually appropriate in addressing cognitive, 
         social, emotional and physical areas of development. The extra time for the full-day program allows teachers 
         to challenge students, provide for differentiated instruction, and spend extra time on difficult concepts.</p>      
 
@@ -50,26 +51,27 @@ include "headerr.php"?>
 
  <div class="row">
  <div class="col-md-6" style="text-align: left;">
-    <h5>Description</h5>
+    <h5><b>Description</b></h5>
     <p>We are looking for an enthusiastic kindergarten teacher to foster and facilitate the intellectual 
         and social development of the children. Teaching in kindergarten includes planning, implementing 
         and assessing lessons. You will teach children with patience and creativity. Kindergarten Teacher
         duties include designing a teaching plan and using activities and instructional methods to motivate
         children.</p>
    <br><br><br><br><br><br><br><br>
+   <br><br>
 
-    <h5>Responsibilities </h5>
-    <p>* Design and follow a complete teaching plan</p<br>
+    <h5><b>Responsibilities </b></h5>
+    <p>* Design and follow a complete teaching plan</p>
     <p>* Teach alphabet and numeracy along with personal,social and emotional skills </p><br>
     <p>* Organize learning material and resources</p>
    <br><br>
 
-    <h5>Requirements</h5>
-    <p1>* Excellent knowledge of child development and latest education theories and practices</p1><br>
-    <p1>* Teaching and organisation skills</p1><br>
-    <p1>* Creative and artistic teaching abilities</p1><br>
-    <p1>* Patience and flexibility</p1><br>
-    <p1>* Strong communication skills</p1>
+    <h5><b>Requirements</b></h5>
+    <p>* Excellent knowledge of child development and latest education theories and practices</p><br>
+    <p>* Teaching and organisation skills</p>
+    <p>* Creative and artistic teaching abilities</p>
+    <p>* Patience and flexibility</p>
+    <p>* Strong communication skills</p>
     <br><br>
     </div>
  
