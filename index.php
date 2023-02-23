@@ -42,6 +42,7 @@ include "headerr.php"?>
 <div class="col-md-6">
 <div class="career image">
            <img src="image/career1.jpg" class="career1-img" alt="image" class="rounded" width="500" height="300">
+           <br><br><br>
 </div>
 </div>
 </div>   
@@ -69,6 +70,7 @@ include "headerr.php"?>
     <p1>* Creative and artistic teaching abilities</p1><br>
     <p1>* Patience and flexibility</p1><br>
     <p1>* Strong communication skills</p1>
+    <br><br>
     </div>
  
 <!--Creating form-->
