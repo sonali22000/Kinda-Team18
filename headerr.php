@@ -35,7 +35,7 @@ h2{
 }
 /*lcard text*/
 h3{ 
-    color:#680a11;
+    color:black;
     font-size: 12px;
     font-weight: bold;
     padding-top: 0px;
@@ -153,7 +153,6 @@ font-weight: bold;
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
-<style>
 a:link {
   color: black;
   background-color: transparent;
@@ -178,7 +177,6 @@ a:active {
   text-decoration: underline;
 }
 </style>
-</style>
 </head>
 <body>
   <div class="container">
@@ -188,7 +186,7 @@ a:active {
 
             <ul>
               <ul>
-                <li><a href="#" style="color:Black;"><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
+                <li><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
                 <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="createprogram.php">Activities</a></li>

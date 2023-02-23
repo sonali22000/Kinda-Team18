@@ -6,7 +6,7 @@ include "headerr.php"?>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   
    <div class="card text-bg-dark">
-           <img src="image/home.jpg" class="card-img" alt="image">
+           <img src="image/home.jpg" class="card-img" alt="image"class="rounded" width="500" height="425">
            <div class="card-img-overlay">
          <h3 class="card-text"><b>When you <br> enter this <br> Loving School <br>Consider yourself <br> One of the special <br>
            Members of an <br> Extraordinary Family</b></h3>
@@ -56,11 +56,13 @@ include "headerr.php"?>
         duties include designing a teaching plan and using activities and instructional methods to motivate
         children.</p>
    <br><br><br><br><br><br><br><br>
+
     <h5>Responsibilities </h5>
     <p1>* Design and follow a complete teaching plan</p1><br>
     <p1>* Teach alphabet and numeracy along with personal,social and emotional skills</p1><br>
     <p1>* Organize learning material and resources</p1>
    <br><br>
+
     <h5>Requirements</h5>
     <p1>* Excellent knowledge of child development and latest education theories and practices</p1><br>
     <p1>* Teaching and organisation skills</p1><br>
@@ -85,12 +87,8 @@ include "headerr.php"?>
 
    <input type="submit" value="Apply" name="Apply" >
     </div>
- </div>   
-   
+ </div>    
  
- </select>
-
-
 </form>
 
 <!--Getting values from end user-->
