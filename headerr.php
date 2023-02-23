@@ -43,6 +43,12 @@ h3{
     padding-left: 175px;
     margin-top: 220px;
 }
+
+h5{ 
+    color:black;
+    font-weight: bold;
+  
+}
 /*links*/
 img{
     margin-right: 50px;
@@ -84,7 +90,7 @@ footer{
 p{
     height: 0px;
     padding-top: 20px;
-    padding-bottom:30px ;
+    padding-bottom:0px ;
     padding-left: 20px;
     text-align: center;
     font-size: 15px;
@@ -92,17 +98,7 @@ p{
     
 }
 
-/*create index p*/
-p1{
-    height: 0px;
-    padding-top: 20px;
-    padding-bottom:30px ;
-    padding-left: 20px;
-    text-align: center;
-    font-size: 15px;
-    text-align: justify;
-    
-}
+
 
 .img-fluid {
     width:fit-content;
