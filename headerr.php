@@ -9,7 +9,7 @@
     <style>
 body {
     background-color: #F0D2D2;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black:
     width: 1080px;
     margin:auto;
