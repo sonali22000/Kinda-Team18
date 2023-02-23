@@ -9,7 +9,7 @@ include "headerr.php"?>
            <img src="image/home.jpg" class="card-img" alt="image"class="rounded" width="500" height="425">
            <div class="card-img-overlay">
          <h3 class="card-text"><b>When you <br> enter this <br> Loving School <br>Consider yourself <br> One of the special <br>
-           Members of an <br> Extraordinary Family</b></h3>
+           Members of an <br> Extraordinary <br> Family...</b></b></h3>
    </div>
 </div>
 <br><h2><b>We are group of teachers  who really  love children's and enjoy every moment of teaching and playing with 
@@ -23,7 +23,7 @@ include "headerr.php"?>
         social, emotional and physical areas of development. The extra time for the full-day program allows teachers 
         to challenge students, provide for differentiated instruction, and spend extra time on difficult concepts.</p>      
 
-<!-- creating form for applying teacher-->
+<!-- creating form for applying a teacher-->
 
 <br><br><br>
 <div class="row">

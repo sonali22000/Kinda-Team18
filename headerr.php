@@ -40,8 +40,8 @@ h3{
     font-weight: bold;
     padding-top: 0px;
     padding-bottom:00px ;
-    padding-left: 160px;
-    margin-top: 325px;
+    padding-left: 175px;
+    margin-top: 215px;
 }
 /*links*/
 img{
