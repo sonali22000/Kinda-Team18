@@ -45,7 +45,6 @@ include "headerr.php"?>
         </div>
 
 
-
 <?php
 if (isset($_POST ['submit'])){
     $kidsid = $_POST['kidsid'];
@@ -67,7 +66,6 @@ if (isset($_POST ['submit'])){
     }
 
 }
-
 
 ?>
 

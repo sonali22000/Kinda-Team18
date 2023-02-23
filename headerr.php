@@ -24,7 +24,6 @@ h1{
 }
 /*sentence*/
 h2{
-    background-color:#EF92D5;
     height: 0px;
     padding-top: 20px;
     padding-bottom:20px ;

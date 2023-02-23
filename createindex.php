@@ -59,19 +59,13 @@ include "headerr.php"?>
 if(isset($_POST['submit'])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
-    $adress = $_POST['adress'];
-   <?php 
-if(isset($_POST['submit'])){
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
     $address = $_POST['address'];
     $postalcode = $_POST['postalcode'];
-    $address = $_POST['address'];
     $contactno = $_POST['contactno'];
     $emailid = $_POST['emailid'];
     include 'db.php';
-    $sql = "insert into Teachers Career(fName,lName,,grID)
-    values('$fname', '$lname', '$city', '$groupid')";
+    $sql = "insert into teacherscareer(fname,lname,address,postalcode,contactno,emailid)
+    values('$fname', '$lname', '$address', '$postalcode','$contactno', '$emailid')";
 
 if ($conn->query($sql)===true){
         echo "Your information is added successflly";
@@ -80,20 +74,5 @@ else{
         echo "Error:" . $conn->error;
 }
 }
-include '../layout/footer.php';
 ?>
-    include 'db.php';
-    $sql = "insert into StudentInfo(fName,lName,city,grID)
-    values('$fname', '$lname', '$city', '$groupid')";
-
-if ($conn->query($sql)===true){
-        echo "Your information is added successflly";
-}
-else{
-        echo "Error:" . $conn->error;
-}
-}
-include '../layout/footer.php';
-?>
-
 <?php include "footer1.php" ?>
