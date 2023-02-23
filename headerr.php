@@ -36,12 +36,12 @@ h2{
 /*lcard text*/
 h3{ 
     color:black;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     padding-top: 0px;
     padding-bottom:00px ;
     padding-left: 175px;
-    margin-top: 215px;
+    margin-top: 220px;
 }
 /*links*/
 img{
