@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<?php include "headerr.php" ?>
+<?php
+$title="crup app for kindergarten";
+include "headerr.php"?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   
@@ -76,9 +78,10 @@
     <input type="int" name="postalsode" required placeholder="Postal Code" class="form-control"><br>
     <input type="teintxt" name="contactno" required placeholder="Contact Number" class="form-control"><br>
     <input type="text" name="emailid" required placeholder="Email" class="form-control"><br><br>
-    <li><i class="material-icons" style="font-size:60px;color:black;">Upload CV</i><font color="black"></li><br>
+    <span class="material-icons" style="font-size:60px;color:darkblue;">
+      upload_file
+   </span>Upload CV<br><br><br>
 
-    
    <input type="submit" value="Apply" name="Apply" >
     </div>
  </div>   
@@ -101,7 +104,7 @@ if(isset($_POST['submit'])){
     $sql = "insert into teacherscareer(fname,lname,address,postalcode,contactno,emailid)
     values('$fname', '$lname', '$address', '$postalcode','$contactno', '$emailid')";
 
-if ($conn->query($sql)===true){
+if ($conn ->query($sql) === true){
         echo "Your information is added successflly";
 }
 else{
