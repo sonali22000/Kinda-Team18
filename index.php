@@ -59,9 +59,9 @@ include "headerr.php"?>
    <br><br><br><br><br><br><br><br>
 
     <h5>Responsibilities </h5>
-    <p1>* Design and follow a complete teaching plan</p1><br>
-    <p1>* Teach alphabet and numeracy along with personal,social and emotional skills</p1><br>
-    <p1>* Organize learning material and resources</p1>
+    <p>* Design and follow a complete teaching plan</p<br>
+    <p>* Teach alphabet and numeracy along with personal,social and emotional skills </p><br>
+    <p>* Organize learning material and resources</p>
    <br><br>
 
     <h5>Requirements</h5>
