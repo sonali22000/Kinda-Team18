@@ -17,17 +17,31 @@
 
 <form  method="post"  action=""> 
 
- <div class="row">
+<div class="row">
     <div class="col">
     <h4><b>Applying for the post of Kindergarden Teacher</b></h4><br><br>
     </div>
+ </div> 
 
- </div>    
+<div class="row">
+<div class="col-md-6">
+<div class="career image">
+           <img src="image/career.png" class="career-img" alt="image" class="rounded" width="500" height="400">
+</div>
+</div>
 
+<div class="col-md-6">
+<div class="career image">
+           <img src="image/career1.jpg" class="career1-img" alt="image" class="rounded" width="500" height="400">
+</div>
+</div>
+</div>   
+
+<br><br> 
  <div class="row">
  <div class="col-md-6" style="text-align: left;">
     <h5>Description</h5>
-    <p> We are looking for an enthusiastic kindergarten teacher to foster and facilitate the intellectual 
+    <p>We are looking for an enthusiastic kindergarten teacher to foster and facilitate the intellectual 
         and social development of the children. Teaching in kindergarten includes planning, implementing 
         and assessing lessons. You will teach children with patience and creativity. Kindergarten Teacher
         duties include designing a teaching plan and using activities and instructional methods to motivate
@@ -45,6 +59,7 @@
     <p1>* Patience and flexibility</p1><br>
     <p1>* Strong communication skills</p1>
     </div>
+    
     <div class="col-md-6" style="text-align:left;">
     <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
     <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>

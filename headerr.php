@@ -68,10 +68,6 @@ nav ul {
 
 }
 
-/*.header-image {
-    width: 100%;
-    height: auto;
-}*/
 
 /*footer*/
 
@@ -82,12 +78,6 @@ footer{
     margin-bottom: 0px;
 }
 
-header
-{
-   
-   
-    
-}
 
 p{
 
