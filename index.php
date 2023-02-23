@@ -25,8 +25,6 @@ include "headerr.php"?>
 
 <!-- creating form for applying teacher-->
 
-<form  method="post"  action=""> 
-
 <br><br><br>
 <div class="row">
     <div class="col">
@@ -70,13 +68,16 @@ include "headerr.php"?>
     <p1>* Patience and flexibility</p1><br>
     <p1>* Strong communication skills</p1>
     </div>
-    
+ 
+<!--Creating form-->
+
     <div class="col-md-6" style="text-align:left;">
+    <form method="post" action="" onsubmit="return crud()"name="form1">
     <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
     <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>
     <input type="text" name="address" required placeholder="Postal Address" class="form-control"><br>
-    <input type="int" name="postalsode" required placeholder="Postal Code" class="form-control"><br>
-    <input type="teintxt" name="contactno" required placeholder="Contact Number" class="form-control"><br>
+    <input type="int" name="postalcode" required placeholder="Postal Code" class="form-control"><br>
+    <input type="int" name="contactno" required placeholder="Contact Number" class="form-control"><br>
     <input type="text" name="emailid" required placeholder="Email" class="form-control"><br><br>
     <span class="material-icons" style="font-size:60px;color:darkblue;">
       upload_file
@@ -92,8 +93,10 @@ include "headerr.php"?>
 
 </form>
 
+<!--Getting values from end user-->
+
 <?php 
-if(isset($_POST['submit'])){
+if(isset($_POST['Apply'])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $address = $_POST['address'];
@@ -101,10 +104,11 @@ if(isset($_POST['submit'])){
     $contactno = $_POST['contactno'];
     $emailid = $_POST['emailid'];
     include 'db.php';
-    $sql = "insert into teacherscareer(fname,lname,address,postalcode,contactno,emailid)
+    $sql="insert into teacherscareer(fname,lname,address,postalcode,contactno,emailid)
     values('$fname', '$lname', '$address', '$postalcode','$contactno', '$emailid')";
 
-if ($conn ->query($sql) === true){
+if ($conn->query($sql)===true){
+
         echo "Your information is added successflly";
 }
 else{
