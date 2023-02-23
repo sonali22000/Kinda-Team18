@@ -178,23 +178,52 @@ a:active {
 }
 </style>
 </head>
-<body>
+<!--<body>
   <div class="container">
     <header class="site_header">
         <div class="wrapper"></div>
-        <nav>
+        <nav>-->
+        <body>
+  <div class="container" >
+    <div class="row">
+  <nav class="navbar navbar-expand-lg" style="background-color:white;margin-bottom: 10px;" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><li><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
+    <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+          <a class="nav-link" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="createprogram.php">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="enrollment.php">Enroll Today</a>
+        </li>
+        
+        
+      </ul>
+
+          <!--  <ul>
               <ul>
                 <li><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
                 <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="createprogram.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="enrollment.php">Enroll Today</a></li>
                 <a class="btn btn-danger" href="enrollment.php" role="button">Enroll Today</a>
               </ul>
                    
-            </ul>
+            </ul>-->
                 </nav>
 
 
