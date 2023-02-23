@@ -62,9 +62,11 @@ nav li:last-child {
 nav ul {
     padding-left: 0;    
 }
+/*header letter*/
 .nav-item {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    
 
 }
 
