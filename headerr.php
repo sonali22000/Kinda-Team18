@@ -82,7 +82,6 @@ footer{
 
 
 p{
-
     height: 0px;
     padding-top: 20px;
     padding-bottom:30px ;
@@ -90,21 +89,19 @@ p{
     text-align: center;
     font-size: 15px;
     text-align: justify;
-    font-weight: bold;
+    
 }
 
 /*create index p*/
-
 p1{
-
-height: 0px;
-padding-top: 20px;
-padding-bottom:50px ;
-padding-left: 20px;
-text-align: center;
-font-size: 15px;
-text-align: justify;
-font-weight: bold;
+    height: 0px;
+    padding-top: 20px;
+    padding-bottom:30px ;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    text-align: justify;
+    
 }
 
 .img-fluid {
