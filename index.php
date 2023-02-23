@@ -25,7 +25,7 @@ include "headerr.php"?>
 
 <!-- creating form for applying a teacher-->
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 <div class="row">
     <div class="col">
     <h4><b>Applying for the post of Kindergarden Teacher</b></h4><br><br>
@@ -46,7 +46,7 @@ include "headerr.php"?>
 </div>
 </div>   
 
-<br><br><br><br><br><br>
+
  <div class="row">
  <div class="col-md-6" style="text-align: left;">
     <h5>Description</h5>
