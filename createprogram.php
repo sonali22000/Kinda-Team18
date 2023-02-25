@@ -46,11 +46,9 @@
 
 
                
-    <div class="col-md-6">
+    
     <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
-    </div>
-
- </div> 
+  
 
  </div>
 
@@ -61,49 +59,51 @@
 
 
 <div class="row">
-   <div class="col-md-4">
+   <div class="col-md-6">
    <select name="pname">
     <option value="CURRICULAR ACTIVITIES"> CURRICULAR ACTIVITIES </option>
     <option value="SPORTS ACTIVITIES"> SPORTS ACTIVITIES </option>
     <option value="EXCURSIONS"> EXCURSIONS </option>
     </select><br> <br></div>
 
-   <div class="row">
-   <div class="col-md-4">
+   
+   <div class="col-md-6">
    <input type="text" name="description" required placeholder="Description" class="form-control"> <br></div>
-   </div>
+  
 
-<div class="row">
-  <div class="col-md-3">
+
+  <div class="col-md-6">
   <input type="date" name="startdate" required placeholder="Please Enter Program Start Date" class="form-control" > <br></div>
-</div>
 
-<div class="row">
-  <div class="col-md-3">
+
+
+  <div class="col-md-6">
   <input type="date" name="enddate" required placeholder="Please Enter Program End Date" class="form-control" > <br> </div>
-</div>
 
-<div class="row">
-  <div class="col-md-3">
+
+
+  <div class="col-md-6">
   <input type="int" name="capacity" required placeholder="Capacity" class="form-control" >  <br> </div>
-</div>
 
 
-<div class="row">
-  <div class="col-md-3">
+
+
+  <div class="col-md-6">
   <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br> </div>
-</div>
 
-<div class="row">
-  <div class="col-md-3">
+
+
+  <div class="col-md-6">
   <input type="int" name="teid" required placeholder="Teid" class="form-control" >  <br> </div>
-</div>
 
 
 
-<div class="row"> 
-  <div class="col-md-3">
+
+
+  <div class="col-md-6">
   <input type="submit" value="AddProgram" name="AddProgram"> <br> <br> <br> <br> <br> <br>  </div>
+
+
 </div>
 </form>
 
