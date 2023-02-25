@@ -89,7 +89,13 @@ include "headerr.php"?>
       upload_file
    </span>Upload CV<br><br><br>
 
-   <input type="submit" value="Apply" name="Apply" >
+   <input type="submit" value="Apply" name="Apply" <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; >
     </div>
  </div>    
  
