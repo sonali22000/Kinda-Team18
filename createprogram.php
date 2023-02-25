@@ -3,6 +3,15 @@
 
  <!-- creating different activities in kindergarten-->               
  <div class="row">
+
+
+    <h4><b>A place where a child can play, explore and learn!</b> <br> <br></h4>
+    <p>
+    Preschool days are the most important phase for a child’s emotional development; It’s when the child builds his/her confidence, self esteem and 
+    creative expression. To help our children excel in life skills, we organize regular activities where our children across branches come together and 
+    mesmerize everyone with their confidence and charisma. Stage exposure bolsters children’s creative expression, self-esteem and interpretation 
+    skills- all of which can go a long way can go long way in empowering them. <br> <br></p>
+    
                     <div class="col-md-4 text-center">
             
                 <div class="card" style="wwidth: 18rem;">
@@ -33,47 +42,43 @@
                   </div>
                   <br><br><br>
                 </div>
+                
 
 
-
-                <div class="row">
+               
     <div class="col-md-6">
     <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
     </div>
 
  </div> 
 
-
-
-
-            </div>
-
-
+ </div>
 
 
  <!-- creating form for program in kindergarten-->
 
 <form  method="post"  action=""> 
 
-   
-
 
 <div class="row">
-   <div class="col-md-3">
+   <div class="col-md-4">
    <select name="pname">
     <option value="CURRICULAR ACTIVITIES"> CURRICULAR ACTIVITIES </option>
     <option value="SPORTS ACTIVITIES"> SPORTS ACTIVITIES </option>
     <option value="EXCURSIONS"> EXCURSIONS </option>
-    </select><br></div>
-   
-   <div class="col-md-3">
-   <input type="text" name="description" required placeholder="Description" class="form-control"> <br></div>
+    </select><br> <br></div>
 
+   <div class="row">
+   <div class="col-md-4">
+   <input type="text" name="description" required placeholder="Description" class="form-control"> <br></div>
+   </div>
 
 <div class="row">
   <div class="col-md-3">
-  <input type="date" name="startdate" required placeholder="Please Enter Program Start Date" class="form-control" > </div>
+  <input type="date" name="startdate" required placeholder="Please Enter Program Start Date" class="form-control" > <br></div>
+</div>
 
+<div class="row">
   <div class="col-md-3">
   <input type="date" name="enddate" required placeholder="Please Enter Program End Date" class="form-control" > <br> </div>
 </div>
