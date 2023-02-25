@@ -29,8 +29,13 @@
                     <div class="card-body">
                       <p class="card-text" > <h4>EXCURSIONS</h4> Children go out and explore places such as museum, zoo or they go for picnic in a fun way. These excurstions are packed with interesting snacks.</p>
                     </div>
+                   
                   </div>
+                  <br><br><br>
                 </div>
+
+
+
                 <div class="row">
     <div class="col-md-6">
     <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
