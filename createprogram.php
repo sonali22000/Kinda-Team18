@@ -3,7 +3,6 @@
 
  <!-- creating different activities in kindergarten-->               
  <div class="row">
-
     <h4><b>A place where a child can play, explore and learn!</b> <br> <br></h4>
     <p>
     Preschool days are the most important phase for a child’s emotional development; It’s when the child builds his/her confidence, self esteem and 
@@ -81,7 +80,7 @@
   <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br> 
 
   <input type="int" name="teid" required placeholder="Teid" class="form-control" >  <br> 
-
+ 
 
   <input type="submit" value="AddProgram" name="AddProgram"  <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
@@ -90,11 +89,9 @@
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
-                 </span> <br> <br> <br> <br> <br> <br>  </div>
+                 </span> <br> <br> <br> <br> <br> <br></div>
 
-  <button id="scroll-to-top-btn" style="display:none;">Scroll to Top</button>
-
-
+  
 
 </div>
 

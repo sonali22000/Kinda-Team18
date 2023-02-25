@@ -21,5 +21,9 @@ function validateForm(){
         return false;
             }
 
-
 }
+
+//validateform for formindex
+//validateform for forkidsinfo
+//validateform for forteachersinfo
+//validateform for forenrollmentlist
