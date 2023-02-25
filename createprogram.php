@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include "headerr.php" ?> <br> <br>
+<?php include "headerr.php" ?>
 
  <!-- creating different activities in kindergarten-->               
  <div class="row">
@@ -27,12 +27,22 @@
                   <div class="card" style="wwidth: 18rem;">
                     <img src="image/activities3.jpg" class="card-img-top" alt="EXCURSIONSS">
                     <div class="card-body">
-                      <p class="card-text" > <h4>EXCURSIONS</h4> Children go out and explore places such as museum, zoo or they go for picnic in a fun way. These excurstions also are packed with many interesting snacks.</p>
+                      <p class="card-text" > <h4>EXCURSIONS</h4> Children go out and explore places such as museum, zoo or they go for picnic in a fun way. These excurstions are packed with interesting snacks.</p>
                     </div>
                   </div>
                 </div>
+                <div class="row">
+    <div class="col-md-6">
+    <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
+    </div>
+
+ </div> 
+
+
+
+
             </div>
-<br> <br>
+
 
 
 
@@ -40,12 +50,7 @@
 
 <form  method="post"  action=""> 
 
-<div class="row">
-    <div class="col-md-6">
-    <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
-    </div>
-
- </div>    
+   
 
 
 <div class="row">
