@@ -37,12 +37,22 @@ include "headerr.php"?>
               <label for="address">Address:</label>
               <input id="address" type="text" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
             </div>
-            <div class="form-group my-4" style="color: black;>
-              <button type="submit" class="btn btn btn-yellow btn-outline" >
-              <input type="Submit" value="Submit" name="submit" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
-            <div>
+            <div class="form-group my-4" >
         
-        </div>
+        <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+           this.style.backgroundColor='black';
+           this.style.fontSize='1em'; ";
+onmouseout="
+           this.style.color='blue';
+           this.style.backgroundColor='white';
+           this.style.fontSize='1.1em';"; > 
+           </span>
+      <div>
+  
+  </div>
+  
+  
+</div>
 
 
 <?php
