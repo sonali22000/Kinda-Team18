@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<?php include "headerr.php" ?>
+<?php include "headerr.php" ?> <br> <br>
+
  <!-- creating different activities in kindergarten-->               
  <div class="row">
                     <div class="col-md-4 text-center">
