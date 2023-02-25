@@ -85,7 +85,16 @@
   <input type="int" name="teid" required placeholder="Teid" class="form-control" >  <br> 
 
 
-  <input type="submit" value="AddProgram" name="AddProgram"> <br> <br> <br> <br> <br> <br>  </div>
+  <input type="submit" value="AddProgram" name="AddProgram"  <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 </span> <br> <br> <br> <br> <br> <br>  </div>
+
+
 
 </div>
 
