@@ -27,7 +27,7 @@
         
                 
                 
-                <li><a href="enrollmentform.php"><i class="material-icons" style="font-size:80px;color:black;">diversity_3</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"><span class="material-icons" style="font-size:80px;color:black;">sports_kabaddi</span>FEES</a></li>
+                <li><a href="enrollmentform.php"><i class="material-icons" style="font-size:80px;color:black;">diversity_3</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
 </span></li>
             </ul>
             </div>
