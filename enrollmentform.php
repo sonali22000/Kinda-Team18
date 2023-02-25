@@ -9,8 +9,8 @@ include "headerr.php"?>
 <div class="row">
 
          <div class="form-group mb-4" style="color: black;>
-              <label for="kidsname">Kids Name:</label>
-              <input name="kidsname" type="text" name="kidsname" class="form-control" placeholder="Example: Noah Fedrick" style="width: 500px" required></input>
+              <label for='kidsname'>Kids Name:</label>
+              <input name='kidsname' type='text' name='kidsname' class='form-control' placeholder="Example: Noah Fedrick" style="width: 500px" required></input>
             </div>
             <div class="form-group my-4" style="color: black;>
               <label for="parentsdetails">Parents Name and Relationship:</label>
