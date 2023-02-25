@@ -52,6 +52,7 @@ if (isset($_POST ['submit'])){
     $address = $_POST['address'];
     $dob = $_POST['dob'];
     $phone = $_POST['phone'];
+    
    
     
     include 'db.php';
