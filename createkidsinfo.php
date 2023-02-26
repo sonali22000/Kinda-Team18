@@ -10,32 +10,32 @@ include "headerr.php"?>
     
               
     <div class="form-group mb-4" style="color: black;>
-              <label for="kidsid">Kids ID:</label>
-              <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Example: 001" style="width: 500px" required></input>
+              <label for="kidsid"></label>
+              <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Kids ID:" style="width: 500px" required></input>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="kidsname">Kids Name:</label>
-              <input id="kidsname" type="text" name="kidsname" class="form-control" placeholder="Example: Situ Anna" style="width: 500px" required>
+              <label for="kidsname"></label>
+              <input id="kidsname" type="text" name="kidsname" class="form-control" placeholder="Kids Name:" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="parentsname">Parents Name:</label>
-              <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Example: Nura Pekka" style="width: 500px" required>
+              <label for="parentsname"></label>
+              <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Parents Name:" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="dob">Kids Birth Day:</label>
-              <input id="dob" type="date" name="dob" class="form-control" placeholder="Example: 05.05.2020" style="width: 500px" required>
+              <label for="dob"></label>
+              <input id="dob" type="date" name="dob" class="form-control" placeholder="Kids Birth Day:" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="phone">Contact Number:</label>
-              <input id="phone" type="int" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
+              <label for="phone"></label>
+              <input id="phone" type="int" name="phone" class="form-control" placeholder="Contact Number:"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="email">E-mail Address:</label>
-              <input  type="text" name="email" class="form-control" placeholder="Example: xxxxxxxa@xxxxx.xxx" style="width: 500px" required>
+              <label for="email"></label>
+              <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="address">Address:</label>
-              <input id="address" type="text" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
+              <label for="address"></label>
+              <input id="address" type="text" name="address" class="form-control" placeholder="Address:"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" >
         
