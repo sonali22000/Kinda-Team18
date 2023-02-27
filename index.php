@@ -87,7 +87,7 @@ include "headerr.php"?>
     <input type="text" name="emailid" required placeholder="Email" class="form-control"><br><br>
     <span class="material-icons" style="font-size:60px;color:darkblue;">
       upload_file
-   </span>Upload CV<br><br><br>
+   </span>Upload CV <input type="file" id="myFile" name="filename"><br><br><br>
 
    <input type="submit" value="Apply" name="Apply" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
