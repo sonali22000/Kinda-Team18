@@ -24,6 +24,37 @@ function validateForm(){
 }
 
 //validateform for formindex
+function validateForm(){
+  let lname=(document.form1.fname.value).trim();
+  if (fname==null){
+      alert("First Name must be entered.");
+      return false;
+  }
+}
+
+function fname(){  
+  let fname=(document.form1.fname.value).trim();
+  if (fname.length<5){
+      alert("First Name must have at least 5 character");
+      return false;
+  }
+
+
+
+}
+
+function fname(){  let fname=(document.form1.fname.value).trim();
+  if (fname.length<5){
+      alert("First Name must have at least 5 character");
+      return false;
+  }
+
+
+
+}
+  
+  <input type="email" id="email" name="email" />
+
 //validateform for forkidsinfo
 //validateform for forteachersinfo
 //validateform for forenrollmentlist
