@@ -57,4 +57,5 @@ function fname(){  let fname=(document.form1.fname.value).trim();
 
 //validateform for forkidsinfo
 //validateform for forteachersinfo
+
 //validateform for forenrollmentlist

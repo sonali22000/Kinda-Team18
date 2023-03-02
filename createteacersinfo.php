@@ -15,14 +15,16 @@ include "headerr.php"?>
       that describe what qualities Twinkling Stars Kindergarten teachers hold in general. All these characteristics or 
       competencies can be learnt and adapted.</p>
       <img src="image/teachersinfo.jpg" class="teachers-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
+      <br><br>
     </div>
- 
+    
 <!--Creating form-->
 <br><br>
+
     <div class="col-md-6" style="text-align:left;">
     <br><br>
-    <form method="post" action="" onsubmit="return crud()"name="formt">
-    <input  type="int" name="teid" class="form-control" placeholder="Teacher ID:"required><br>
+    <form method="post" action=""  name="formt" onsubmit="return formtval()">
+    <input  type="int" name="teid" class="form-control" placeholder="Teacher ID:"required ><br>
     <input  type="text" name="tname" class="form-control" placeholder="Teacher Name:" required><br>
     <input  type="int" name="phone" class="form-control" placeholder="Phone Number:" required><br>
     <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" required><br>
@@ -43,6 +45,36 @@ include "headerr.php"?>
  
 </form>
 
+<script>
+   function formtval(){
+    <!--checking name-->
+  let name=(document.formt.tname.value).trim();
+  if(name.length<5){
+      alert("Teacher name must have 5 characters");
+      return false;
+  }
+  else if(name.length>20){  
+        alert("Name can't more than 20 characters");  
+        return false;  
+      }
+      <!--checking phone number-->
+    let pnum=(document.formt.phone.value).trim();
+    else if(phone.length<10){
+        alert("Enter 10 digits phone number");
+      return false;
+    }
+    else if(phone.length>10){
+        alert("Enter 10 digits phone number");
+      return false;
+    }
+    let email=(document.formt.email.value).trim();
+    if (email==null || email==""){  
+        alert("Email can't be blank");  
+        return false;  
+      }
+
+}
+</script>
 <!--Getting values from end user-->
 
 <?php

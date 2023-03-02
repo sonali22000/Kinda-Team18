@@ -16,6 +16,7 @@ include "headerr.php"?>
       are so important. By creating these environments, we're providing the best opportunities for children to fulfil their 
       potential.</p>
       <img src="image/kidsinfo.jpg" class="kids-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
+      
     </div>
    
  
@@ -23,9 +24,9 @@ include "headerr.php"?>
 
     <div class="col-md-6" style="text-align:left;">
     <br><br>
-    <form method="post" action="" onsubmit="return crud()"name="formt">
+    <form method="post" action="" onsubmit="return formkval()" name="formk">
     <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Kids ID:" required><br>
-    <input id="kidsname" type="text" name="kidsname" class="form-control" placeholder="Kids Name:" required><br>
+    <input type="text" name="kidsname" class="form-control" placeholder="Kids Name:" required><br>
     <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Parents Name:" required><br>
     <input id="dob" type="date" name="dob" class="form-control" placeholder="Kids Birth Day:" required><br>
     <input id="phone" type="int" name="phone" class="form-control" placeholder="Contact Number:" required><br>
@@ -44,7 +45,36 @@ onmouseout="
  </div>    
  
 </form>
+<script>
+   function formkval(){
+    <!--checking name-->
+  let name=(document.formk.kidsname.value).trim();
+  if(name.length<5){
+      alert("Kids name must have 5 characters");
+      return false;
+  }
+  else if(name.length>20){  
+        alert("Name can't more than 20 characters");  
+        return false;  
+      }
+      <!--checking phone number-->
+    let pnum=(document.formk.phone.value).trim();
+    else if(phone.length<10){
+        alert("Enter 10 digits phone number");
+      return false;
+    }
+    else if(phone.length>10){
+        alert("Enter 10 digits phone number");
+      return false;
+    }
+    let email=(document.formk.email.value).trim();
+    if (email==null || email==""){  
+        alert("Email can't be blank");  
+        return false;  
+      }
 
+}
+</script>
 <!--Getting values from end user-->
 
 <?php
