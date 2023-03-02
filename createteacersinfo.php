@@ -31,9 +31,16 @@ include "headerr.php"?>
               <label for="bio">Bio:</label>
               <textarea name="bio" class="form-control" style="width: 500px" rows="4" placeholder="Teacher's bio..."  required></textarea>
             </div>
-            <div class="form-group my-4" style="color: black;>
-              <button type="submit" class="btn btn btn-yellow btn-outline" >
-              <input type="Submit" value="Submit" name="submit" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
+            <div class="form-group my-4" >
+        
+              <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 </span>
             <div>
         
         </div>

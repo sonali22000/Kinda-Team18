@@ -6,12 +6,12 @@
     <title>echo $title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <style>
 body {
     background-color: #F0D2D2;
-    font-family:'Courier New', Courier, monospace;
-    color: black;
-    font-size: 13.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black:
     width: 1080px;
     margin:auto;
     display: flex;
@@ -21,10 +21,11 @@ body {
 h1{
     font-size: 20px;
     text-align: justify;
+    color:black;
 }
 /*sentence*/
 h2{
-    background-color:#EF92D5;
+    color:black;
     height: 0px;
     padding-top: 20px;
     padding-bottom:20px ;
@@ -36,13 +37,19 @@ h2{
 }
 /*lcard text*/
 h3{ 
-    color:#680a11;
-    font-size: 12px;
+    color:black;
+    font-size: 11px;
     font-weight: bold;
     padding-top: 0px;
     padding-bottom:00px ;
-    padding-left: 160px;
-    margin-top: 325px;
+    padding-left: 185px;
+    margin-top: 220px;
+}
+
+h5{ 
+    color:black;
+    font-weight: bold;
+  
 }
 /*links*/
 img{
@@ -63,58 +70,39 @@ nav li:last-child {
 nav ul {
     padding-left: 0;    
 }
+/*header letter*/
 .nav-item {
-    font-size: 20px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    
 
 }
 
-/*.header-image {
-    width: 100%;
-    height: auto;
-}*/
 
 /*footer*/
 
 footer{
-    margin-top:50px;
+    margin-top:0px;
     background-color: #fff;
-    margin-left: 9px;
-    margin-bottom: 0px;
+    line-height: 30px;
+  
 }
 
-header
-{
-   
-   
-    
-}
 
-p{
-
-    height: 0px;
-    padding-top: 20px;
-    padding-bottom:30px ;
+p1{
+    padding-top:0px;
+    padding-bottom:0px ;
     padding-left: 20px;
     text-align: center;
     font-size: 15px;
     text-align: justify;
-    font-weight: bold;
+    color:black;
+}
+p{
+  color:black;
 }
 
-/*create index p*/
 
-p1{
-
-height: 0px;
-padding-top: 20px;
-padding-bottom:50px ;
-padding-left: 20px;
-text-align: center;
-font-size: 15px;
-text-align: justify;
-font-weight: bold;
-}
 
 .img-fluid {
     width:fit-content;
@@ -164,7 +152,6 @@ font-weight: bold;
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
-<style>
 a:link {
   color: black;
   background-color: transparent;
@@ -189,25 +176,53 @@ a:active {
   text-decoration: underline;
 }
 </style>
-</style>
-</head>
-<body>
-  <div class="container">
-    <header class="site_header">
-        <div class="wrapper"></div>
-        <nav>
 
-            <ul>
+<script src="kindergarten.js"></script>
+
+</head>
+
+        <body>
+  <div class="container" >
+    <div class="row">
+  <nav class="navbar navbar-expand-lg" style="background-color:white;margin-bottom: 10px;" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><li><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
+    <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         
+        <li class="nav-item">
+          <a class="nav-link"href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="createprogram.php">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="enrollment.php">Enroll Today</a>
+        </li>
+        
+        
+      </ul>
+
+          <!--  <ul>
               <ul>
-                <li><a href="#" style="color:Black;"><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
+                <li><i><b>Twinkling Stars<br>Kindergarten </a></i></b></li>
                 <img src="image/logo.jpg" class="rounded" alt="Logo" width="100" height="75">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="createprogram.php">Activities</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="enrollment.php">Enroll Today</a></li>
                 <a class="btn btn-danger" href="enrollment.php" role="button">Enroll Today</a>
               </ul>
                    
-            </ul>
+            </ul>-->
                 </nav>
 
 

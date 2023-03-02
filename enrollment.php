@@ -7,7 +7,7 @@
 
 
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 text-center">
         <h4><b><i>ADMISSION OPEN FOR 2023</i></b></h4>
         </div>
     </div>  
@@ -20,16 +20,22 @@
         <div class="col-md-12 text-center">
         <h6><b> info@twinklingstars.fi</b></h6>  
     </div>
+
+
+<div class="row">
+            <div class="col-md-6">
+            
+
+            </div>
+
+                <div class="col-md-4 text-middel">
+        
    
     
-    
-
-        
-                
-                
-                <li><a href="enrollmentform.php"><i class="material-icons" style="font-size:80px;color:black;">diversity_3</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
+ <li><a href="enrollmentform.php"><i class="material-icons" style="font-size:60px;color:black text-center;">contacts</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
 </span></li>
-            </ul>
+
+
             </div>
 
             <div class="col-md-6" style="color: aliceblue;">
