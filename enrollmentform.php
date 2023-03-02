@@ -62,7 +62,7 @@ if (isset($_POST ['submit'])){
         echo "Your information is added Successfully";
     }
     else {
-        echo "Error:" . $conn->error;
+      ;
     }
 
 }
