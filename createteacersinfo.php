@@ -3,7 +3,9 @@ $title="crup app for kindergarten";
 include "headerr.php"?>
 
  <div class="row">
+
  <div class="col-md-6" style="text-align: left;">
+ <br><br>
     <h5><b>Our Teachers</b></h5>
     <p>We are often asked what makes the teachers in Twinkling Stars Kindergarten so highly skilled and what are the 
       secrets behind one of the most competent teacher. The teachers in Twinkling Stars Kindergarten are expected 
@@ -16,8 +18,9 @@ include "headerr.php"?>
     </div>
  
 <!--Creating form-->
-
+<br><br>
     <div class="col-md-6" style="text-align:left;">
+    <br><br>
     <form method="post" action="" onsubmit="return crud()"name="formt">
     <input  type="int" name="teid" class="form-control" placeholder="Teacher ID:"required><br>
     <input  type="text" name="tname" class="form-control" placeholder="Teacher Name:" required><br>

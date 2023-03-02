@@ -4,7 +4,8 @@ include "headerr.php"?>
 
 
 <div class="row">
- <div class="col-md-6" style="text-align: left;">
+ <div class="col-md-6" style="text-align:left;">
+ <br><br>
     <h5><b>Our Kids</b></h5>
     <p>Early Learning captures the essence of what Your Kids Our Kids is all about, nurturing and stimulating enviroments 
       that inspire a love of learning. 'Early Learning' happens everywhere. Young children develop at an extremely fast pace 
@@ -21,6 +22,7 @@ include "headerr.php"?>
 <!--Creating form-->
 
     <div class="col-md-6" style="text-align:left;">
+    <br><br>
     <form method="post" action="" onsubmit="return crud()"name="formt">
     <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Kids ID:" required><br>
     <input id="kidsname" type="text" name="kidsname" class="form-control" placeholder="Kids Name:" required><br>
