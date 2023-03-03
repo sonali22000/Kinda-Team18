@@ -35,6 +35,17 @@ function validateFormindex(){
       alert("First Name must have at least 5 character");
       return false;
   }
+  let lname=(document.form1.lname.value).trim();
+    if (lname == null ||lname== "") {
+        alert("Last Name must be entered.");
+        return false;
+      }
+  let emailid=(document.form1.emailid.value).trim();
+    if (emailid == null ||emailid== "") {
+          alert("Email must be entered.");
+          return false;
+        }
+      
 
 
 
