@@ -11,7 +11,7 @@ $result = mysqli_query($conn, "select * from program where programid = '$a'");
 $row = mysqli_fetch_array($result)
 
 ?>
-<h2> Update your information below </h2>
+<h2> Update and Delete your data below </h2>
 
 <form  name="update"  method="post"  action=""> 
  <div class="row">
@@ -36,11 +36,26 @@ $row = mysqli_fetch_array($result)
 
   <input type="int" name="teid" required value = "<?php echo $row['teid'];?>" placeholder="Teid" class="form-control" >  <br> 
  
-  <br> <br> <br> <br> <br> <br>
-  <input type ="submit" value ="Update your data" name="update" >
-<input type ="submit" value ="Delete your data" name="delete" >
+ 
+  <input type ="submit" value ="Update your data" name="update"  <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 </span>  
+                 <br> <br> 
+  <input type ="submit" value ="Delete your data" name="delete"   <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 </span>  
                 
-                
+  <br> <br> <br> <br> <br> <br>          
    </div>
     
  </div>
@@ -59,38 +74,38 @@ $row = mysqli_fetch_array($result)
         $query = mysqli_query($conn, "UPDATE program set 
         pname = '$pname', description = '$description', startdate = '$startdate',
         enddate = '$enddate', capacity = '$capacity', kidsid = '$kidsid', teid = '$teid'
-        where id = '$a'");
+        where programid = '$a'");
 
             if ($query){
 
-                echo "<h2>  updated Successfully </h2>";
+                echo "<h2>Your Data Updated Successfully </h2>";
             }
             else{
-                echo "<h2> Not update </h2>";
+                echo "<h2> Update failed </h2>";
             }
+         
+            
     }
+    
+
+
+
     if (isset($_POST['delete'])){
-        $aname=$_POST['pname'];
-        $description=$_POST['description'];
-        $startdate=$_POST['startdate'];
-        $enddate=$_POST['enddate'];
-        $capacity=$_POST['capacity'];
-        $location=$_POST['kidsid'];
-        $location=$_POST['teid'];
-        $query = mysqli_query($conn, "DELETE program set 
-        pname = '$pname', description = '$description', startdate = '$startdate',
-        enddate = '$enddate', capacity = '$capacity', kidsid = '$kidsid', teid = '$teid'
-        where id = '$a'");
+        
+        $query = mysqli_query($conn, "delete from program where programid = '$a'");
 
             if ($query){
 
-                echo "<h2>  delete Successfully </h2>";
+                echo "<h2> Your Data Deleted Successfully </h2>";
             }
             else{
-                echo "<h2> Not delete </h2>";
+                echo "<h2> Delete failed </h2>";
             }
     }
 
 ?>
+<a class="btn btn-danger" href="readprogram.php" role="button">Retrieve Data
 
+
+</a>
 <?php include "footer1.php" ?>
