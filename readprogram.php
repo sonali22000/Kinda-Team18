@@ -25,7 +25,7 @@ if($result->num_rows > 0){
         while($row = $result -> fetch_assoc()) {
             echo "
             <tr>
-            
+            <td><a href='updatedeletprogram.php?programid=$row[programid]'>$row[programid] </a>     </td>   
             <td> $row[programid]     </td>
             <td> $row[pname]     </td>
             <td> $row[description]      </td>
