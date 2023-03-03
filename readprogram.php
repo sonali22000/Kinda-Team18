@@ -11,27 +11,29 @@ $result = $conn->query($sql);
 if($result->num_rows > 0){
     echo" <table class = 'table'>
         <tr>
-        <th>    programid        </th> 
-        <th>    pname </th> 
-        <th>    description  </th> 
-        <th>    startdate       </th> 
-        <th>    enddate    </th>
-        <th>    capacity   </th>
-        <th>    kidsid    </th>
-        <th>    teid    </th>
+        <th>    Program ID       </th> 
+        <th>    Prgram Name </th> 
+        <th>    Description  </th> 
+        <th>    Start date       </th> 
+        <th>    End date    </th>
+        <th>    Capacity   </th>
+        <th>    Kids ID    </th>
+        <th>    Teeacher ID    </th>
         </tr>";
 
 
         while($row = $result -> fetch_assoc()) {
             echo "
             <tr>
-            <td><a href='updateactivitieslist.php?id=$row[id]'>$row[id] </a>     </td>
-            <td> $row[aname]     </td>
-            <td> $row[description]     </td>
-            <td> $row[location]      </td>
+            
+            <td> $row[programid]     </td>
+            <td> $row[pname]     </td>
+            <td> $row[description]      </td>
             <td> $row[startdate]   </td>
             <td> $row[enddate]   </td>
             <td> $row[capacity]   </td>
+            <td> $row[kidsid]   </td>
+            <td> $row[teid]   </td>
             </tr>
             ";
     }

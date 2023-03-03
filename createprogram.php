@@ -57,6 +57,12 @@
 <h4><b>Different types of program in our kindergarten</b> <br> <br></h4>
 <p>Our program table provides parents and guardians with a detailed schedule of daily activities, including the name of the activity, the time and duration of the activity, and the teacher or staff member responsible for the activity. We also include any special events or holidays that may affect the regular schedule.
 <br><br>We believe that parental involvement is key to the success of our program, and we encourage parents to stay informed and involved in their children's education and development. Our program table is just one of the many tools we use to keep parents informed and engaged in their children's learning journey.</p>
+
+<a class="btn btn-danger" href="readprogram.php" role="button">Retrieve Data
+
+
+</a>
+
 </div>
 
    <div class="col-md-6">
@@ -89,7 +95,14 @@
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
-                 </span> <br> <br> <br> <br> <br> <br></div>
+                 </span> <br> <br> 
+  
+
+
+  <br> <br> <br> <br> <br> <br>
+                
+                
+   </div>
 
   
 
