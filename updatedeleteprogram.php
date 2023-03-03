@@ -53,9 +53,12 @@ $row = mysqli_fetch_array($result)
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
-                 </span>  
+                 </span> 
+                 <br> <br> 
+                 <a class="btn btn-danger" href="readprogram.php" role="button">Back
+</a>
+<br> <br> <br> <br> <br> <br> 
                 
-  <br> <br> <br> <br> <br> <br>          
    </div>
     
  </div>
@@ -104,8 +107,8 @@ $row = mysqli_fetch_array($result)
     }
 
 ?>
-<a class="btn btn-danger" href="readprogram.php" role="button">Retrieve Data
+<div class="col-md-6">
 
 
-</a>
+</div>
 <?php include "footer1.php" ?>
