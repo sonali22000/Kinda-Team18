@@ -25,7 +25,7 @@ function validateForm(){
 
 //validateform for formindex
 function validateForm(){
-  let lname=(document.form1.fname.value).trim();
+  let fname=(document.form1.fname.value).trim();
   if (fname==null||fname== ""){
       alert("First Name must be entered.");
       return false;
