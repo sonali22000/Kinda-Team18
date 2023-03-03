@@ -4,20 +4,21 @@ $title = "Read data from database";
 
 include "headerr.php";
 include 'db.php';
-$sql ="select * from activitieslist";
+$sql ="select * from program";
 $result = $conn->query($sql);
 
 
 if($result->num_rows > 0){
     echo" <table class = 'table'>
         <tr>
-        <th>    ID        </th> 
-        <th>    Activities Name </th> 
-        <th>    Description  </th> 
-        <th>    Location       </th> 
-        <th>    Start Date    </th>
-        <th>    End Date   </th>
-        <th>    Capacity    </th>
+        <th>    programid        </th> 
+        <th>    pname </th> 
+        <th>    description  </th> 
+        <th>    startdate       </th> 
+        <th>    enddate    </th>
+        <th>    capacity   </th>
+        <th>    kidsid    </th>
+        <th>    teid    </th>
         </tr>";
 
 
