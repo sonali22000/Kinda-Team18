@@ -12,13 +12,13 @@ if($result->num_rows > 0){
     echo" <table class = 'table'>
         <tr>
         <th>    Program ID       </th> 
-        <th>    Prgram Name </th> 
+        <th>    Porgram Name </th> 
         <th>    Description  </th> 
         <th>    Start date       </th> 
         <th>    End date    </th>
         <th>    Capacity   </th>
         <th>    Kids ID    </th>
-        <th>    Teeacher ID    </th>
+        <th>    Teacher ID    </th>
         </tr>";
 
 
