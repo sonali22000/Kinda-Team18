@@ -55,12 +55,10 @@ $row = mysqli_fetch_array($result)
                  this.style.fontSize='1.1em';"; > 
                  </span> 
                  <br> <br> 
-                 <a class="btn btn-danger" href="readprogram.php" role="button">Back
-</a>
+  <a class="btn btn-danger" href="readprogram.php" role="button">Back</a>
 <br> <br> <br> <br> <br> <br> 
                 
-   </div>
-    
+ </div>
  </div>
 </form>
 
@@ -107,8 +105,5 @@ $row = mysqli_fetch_array($result)
     }
 
 ?>
-<div class="col-md-6">
 
-
-</div>
 <?php include "footer1.php" ?>

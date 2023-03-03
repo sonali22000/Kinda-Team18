@@ -56,6 +56,64 @@ function validateFormindex(){
 
 
 //validateform for forkidsinfo
+
+
+function formkval(){
+  
+let kidsname=(document.formk.kidsname.value).trim();
+if(kidsname.length<5){
+    alert("Kids name must have 5 characters");
+    return false;
+}
+else if(kidsname.length>20){  
+      alert("Name can't more than 20 characters");  
+      return false;  
+    }
+  
+  let phone=(document.formk.phone.value).trim();
+ if(phone.length<10){
+      alert("Enter 10 digits phone number");
+    return false;
+  }
+  else if(phone.length>10){
+      alert("Enter 10 digits phone number");
+    return false;
+  }
+  let email=(document.formk.email.value).trim();
+  if (email==null || email==""){  
+      alert("Email can't be blank");  
+      return false;  
+    }
+
+}
 //validateform for forteachersinfo
+function formtval(){
+  
+let tname=(document.formt.tname.value).trim();
+if(tname.length<5){
+    alert("Teacher name must have 5 characters");
+    return false;
+}
+else if(tname.length>20){  
+      alert("Name can't more than 20 characters");  
+      return false;  
+    }
+   
+  let phone=(document.formt.phone.value).trim();
+  if(phone.length<10){
+      alert("Enter 10 digits phone number");
+    return false;
+  }
+  else if(phone.length>10){
+      alert("Enter 10 digits phone number");
+    return false;
+  }
+  let email=(document.formt.email.value).trim();
+  if (email==null || email==""){  
+      alert("Email can't be blank");  
+      return false;  
+    }
+
+}
 
 //validateform for forenrollmentlist

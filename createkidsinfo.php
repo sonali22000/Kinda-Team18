@@ -45,36 +45,7 @@ onmouseout="
  </div>    
  
 </form>
-<script>
-   function formkval(){
-    <!--checking name-->
-  let name=(document.formk.kidsname.value).trim();
-  if(name.length<5){
-      alert("Kids name must have 5 characters");
-      return false;
-  }
-  else if(name.length>20){  
-        alert("Name can't more than 20 characters");  
-        return false;  
-      }
-      <!--checking phone number-->
-    let pnum=(document.formk.phone.value).trim();
-    else if(phone.length<10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    else if(phone.length>10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    let email=(document.formk.email.value).trim();
-    if (email==null || email==""){  
-        alert("Email can't be blank");  
-        return false;  
-      }
 
-}
-</script>
 <!--Getting values from end user-->
 
 <?php

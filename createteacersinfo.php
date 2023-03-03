@@ -45,36 +45,8 @@ include "headerr.php"?>
  
 </form>
 
-<script>
-   function formtval(){
-    <!--checking name-->
-  let name=(document.formt.tname.value).trim();
-  if(name.length<5){
-      alert("Teacher name must have 5 characters");
-      return false;
-  }
-  else if(name.length>20){  
-        alert("Name can't more than 20 characters");  
-        return false;  
-      }
-      <!--checking phone number-->
-    let pnum=(document.formt.phone.value).trim();
-    else if(phone.length<10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    else if(phone.length>10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    let email=(document.formt.email.value).trim();
-    if (email==null || email==""){  
-        alert("Email can't be blank");  
-        return false;  
-      }
 
-}
-</script>
+
 <!--Getting values from end user-->
 
 <?php
