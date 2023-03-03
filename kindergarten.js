@@ -81,7 +81,24 @@ else if(kidsname.length>20){
       alert("Email can't be blank");  
       return false;  
     }
-  
+    let address=(document.formk.address.value).trim();
+    if(address==null || address==""){
+      alert("Address can not be blank");
+      return false;
+    }
+    else if(address.length<15){
+      alert("Address must have 15 characters");
+      return false;
+    }
+    let pname=(document.formk.parentsname.value).trim();
+    if(pname==null || pname==""){
+      alert("Parent name can not be blank");
+      return false;
+    }
+    else if(pname.length<10){
+      alert("Parent name must have 10 characters");
+      return false;
+    }
 
 }
 //validateform for forteachersinfo
