@@ -45,10 +45,7 @@ function validateFormindex(){
           alert("Email must be entered.");
           return false;
         }
-      
-
-
-
+  
 }
 
 
@@ -84,6 +81,7 @@ else if(kidsname.length>20){
       alert("Email can't be blank");  
       return false;  
     }
+  
 
 }
 //validateform for forteachersinfo
@@ -113,7 +111,24 @@ else if(tname.length>20){
       alert("Email can't be blank");  
       return false;  
     }
-
+    let address=(document.formt.address.value).trim();
+    if(address==null || address==""){
+      alert("Address can not be blank");
+      return false;
+    }
+    else if(address.length<15){
+      alert("Address must have 15 characters");
+      return false;
+    }
+    let bio=(document.formt.bio.value).trim();
+    if(bio==null || bio==""){
+      alert("Bio can not be blank");
+      return false;
+    }
+    else if(bio.length<3){
+      alert("Bio must have 3 characters");
+      return false;
+    }
 }
 
 //validateform for forenrollmentlist
