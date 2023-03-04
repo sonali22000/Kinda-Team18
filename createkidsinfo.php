@@ -41,6 +41,15 @@ onmouseout="
            this.style.backgroundColor='white';
            this.style.fontSize='1.1em';"; > 
            </span>
+        <button onclick="window.location.href='viewkidsinfo.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 View Kids</span></button>
     </div>
  </div>    
  

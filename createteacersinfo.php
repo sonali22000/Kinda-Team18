@@ -43,14 +43,14 @@ include "headerr.php"?>
                  this.style.fontSize='1.1em';"; > 
                  </span>
     <button onclick="window.location.href='viewteachersinfo.php';">
-      View Teachers </button><span onmouseover="this.style.color='red';
+       <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
-                 </span>
+                 View Teachers</span></button>
     <input type="Submit" value="Delete" name="Delete" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
