@@ -16,7 +16,9 @@ include "headerr.php"?>
       competencies can be learnt and adapted.</p>
       <img src="image/teachersinfo.jpg" class="teachers-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
       <br><br>
+      
     </div>
+
     
 <!--Creating form-->
 <br><br>
@@ -33,6 +35,23 @@ include "headerr.php"?>
     
 
     <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 </span>
+    <button onclick="window.location.href='viewteachersinfo.php';">
+      View Teachers </button><span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 </span>
+    <input type="Submit" value="Delete" name="Delete" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -69,7 +88,6 @@ if (isset($_POST ['submit'])){
     }
 
 }
-
-
 ?>
+
 <?php include "footer1.php" ?>
