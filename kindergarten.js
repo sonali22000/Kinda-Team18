@@ -26,13 +26,10 @@ function fname(){  let fname=(document.form1.fname.value).trim();
       return false;
   }
 
-<<<<<<< HEAD
 
 
 }
   
-  <input type="email" id="email" name="email" />
-=======
 //validateform for formprogram
 function validateForm(){
   let description=(document.formprogram.description.value).trim();
@@ -68,8 +65,6 @@ function validateForm(){
     
 }
 }
->>>>>>> ccca10c99ea78080e5e1eec4998368a5a9cb3e71
-
 //validateform for forkidsinfo
 
 
