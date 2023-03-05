@@ -69,7 +69,7 @@ function validateForm(){
       return false;
     }
   else if(capacity.length>2){
-      alert("Capacitycan't more than 99 kids ");
+      alert("Capacity can't more than 99 kids ");
       return false;
     }
   
