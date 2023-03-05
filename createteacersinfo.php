@@ -34,7 +34,7 @@ include "headerr.php"?>
     <textarea name="bio" class="form-control"  rows="3" placeholder="Bio:"  required></textarea><br>
     
 
-    <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="CreateTeacherProfile" name="CreateTeacherProfile" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -50,15 +50,8 @@ include "headerr.php"?>
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
-                 View Teachers</span></button>
-    <input type="Submit" value="Delete" name="Delete" <span onmouseover="this.style.color='red';
-                 this.style.backgroundColor='black';
-                 this.style.fontSize='1em'; ";
-      onmouseout="
-                 this.style.color='blue';
-                 this.style.backgroundColor='white';
-                 this.style.fontSize='1.1em';"; > 
-                 </span>
+                 Meet Our Teachers</span></button>
+    
     </div>
  </div>    
  
