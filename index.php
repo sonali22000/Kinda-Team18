@@ -125,38 +125,7 @@ else{
 }
 
 ?>
-<!-- Validate the form data-->
-<script type = "text/javascript">
-    function validateform(){  
-
-//validating name
-let firstname=document.form1.fname.value;  
-// to check if name is empty of not  
-if (fname==null || fname==""){  
-  alert("Name can't be blank");  
-  return false;  
-}
-// to check if first name has atleast 5 characters
-else if(fname.length<2){  
-    alert("Name can't less than 2 characters");  
-    return false;  
-  }
-// // to ensure name cannot be more than 5 characters
-
-let lastname=document.form1.lname.value;  
-// to check if last name is empty of not  
-if (lname==null || lname==""){  
-  alert("Last Name can't be blank");  
-  return false;  
-}
- //validating email 
- let email=document.form1.emailid.value;
-    if (emailid==null || emailid==""){  
-        alert("Email can't be blank");  
-        return false;  
-      }
-
-}  
+ 
 </script>
 <!--end of form validation-->
 
