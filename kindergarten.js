@@ -1,57 +1,38 @@
 
 
 //validateform for formindex
-function validateFormindex(){
-  let fname=(document.form1.fname.value).trim();
-  if (fname==null||fname== ""){
-      alert("Please enter a valid First Name.");
+function validateForm(){
+  let lname=(document.form1.fname.value).trim();
+  if (fname==null){
+      alert("First Name must be entered.");
       return false;
   }
+}
 
-  else if (fname.length<5){
+function fname(){  
+  let fname=(document.form1.fname.value).trim();
+  if (fname.length<5){
       alert("First Name must have at least 5 character");
       return false;
   }
 
-  else if(fname.length>20){  
-    alert("First Name can't be more than 20 characters");  
-    return false;  
-  }
 
-  let lname=(document.form1.lname.value).trim();
-    if (lname == null ||lname== "") {
-        alert("Please enter a valid Last Name .");
-        return false;
-      }
 
-  let address=(document.form1.address.value).trim();
-    if(address==null || address==""){
-        alert("Address can not be blank");
-        return false;
-      }
-    else if(address.length<15){
-        alert("Address must have 15 characters");
-        return false;
-      }
-      
-  let contactno=(document.form1.contactno.value).trim();
-    if(contactno.length<10){
-           alert("Enter 10 digits phone number");
-         return false;
-       }
-    else if(contactno.length>10){
-           alert("Enter 10 digits phone number");
-         return false;
-       }
-  let emailid=(document.form1.emailid.value).trim();
-    if (emailid == null ||emailid== "") {
-          alert("Email must be entered.");
-          return false;
-        }
-  
 }
 
+function fname(){  let fname=(document.form1.fname.value).trim();
+  if (fname.length<5){
+      alert("First Name must have at least 5 character");
+      return false;
+  }
 
+<<<<<<< HEAD
+
+
+}
+  
+  <input type="email" id="email" name="email" />
+=======
 //validateform for formprogram
 function validateForm(){
   let description=(document.formprogram.description.value).trim();
@@ -87,6 +68,7 @@ function validateForm(){
     
 }
 }
+>>>>>>> ccca10c99ea78080e5e1eec4998368a5a9cb3e71
 
 //validateform for forkidsinfo
 
