@@ -33,7 +33,7 @@ include "headerr.php"?>
     <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" required><br>
     <input id="address" type="text" name="address" class="form-control" placeholder="Address:" required><br>
     
-    <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="CreateStudentProfile" name="submit" <span onmouseover="this.style.color='red';
            this.style.backgroundColor='black';
            this.style.fontSize='1em'; ";
 onmouseout="
@@ -49,7 +49,12 @@ onmouseout="
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
-                 View Kids</span></button>
+                 Meet Our Kids</span></button>
+
+                 <br> <br>
+<a class="btn btn-danger" href="contact.php" role="button">Back</a>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> 
     </div>
  </div>    
  

@@ -34,7 +34,7 @@ include "headerr.php"?>
     <textarea name="bio" class="form-control"  rows="3" placeholder="Bio:"  required></textarea><br>
     
 
-    <input type="Submit" value="CreateTeacherProfile" name="CreateTeacherProfile" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="CreateTeacherProfile" name="submit" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -51,8 +51,15 @@ include "headerr.php"?>
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
                  Meet Our Teachers</span></button>
+                 
+<br> <br>
+<a class="btn btn-danger" href="contact.php" role="button">Back</a>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
     
     </div>
+    
  </div>    
  
 </form>
@@ -82,5 +89,6 @@ if (isset($_POST ['submit'])){
 
 }
 ?>
+
 
 <?php include "footer1.php" ?>
