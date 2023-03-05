@@ -96,6 +96,15 @@
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
                  </span> <br> <br> 
+                 <button onclick="window.location.href='readprogram.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 Explore Our Programs</span></button>
   
 
 
