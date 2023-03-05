@@ -5,8 +5,60 @@
 
 
 
+<<<<<<< HEAD
   
 //validateform for formprogram
+=======
+}
+
+function fname(){  let fname=(document.form1.fname.value).trim();
+  if (fname.length<5){
+      alert("First Name must have at least 5 character");
+      return false;
+  }
+
+
+
+}
+  
+//validateform for formprogram
+function validateForm(){
+  let description=(document.formprogram.description.value).trim();
+  if (description == null ||description== "") {
+      alert("Please enter a valid description.");
+      return false;
+    }
+  else if(description.length<3){
+      alert("description must have more than 3 characters");
+      return false;
+    }
+  let capacity=(document.formprogram.capacity.value).trim();
+  if (capacity == null ||capacity== "") {
+      alert("Please enter a valid capacity.");
+      return false;
+    }
+  else if(capacity.length>2){
+      alert("Capacity can't more than 99 kids ");
+      return false;
+    }
+  
+  let kidsid=(document.formprogram.kidsid.value).trim();
+  if (kidsid == null ||kidsid== "") {
+      alert("Please enter a valid kidsid.");
+      return false;
+      }
+ 
+ 
+    let teid=(document.formprogram.teid.value).trim();
+    if (teid == null ||teid== "") {
+      alert(" Please enter a valid teid.");
+      return false;
+    
+}
+}
+//validateform for forkidsinfo
+
+>>>>>>> 1a7a686e2a24458cc4b51710c901685486afcdf1
 
 function formkval(){
   
@@ -41,6 +93,10 @@ else if(kidsname.length>20){
     let address=(document.formk.address.value).trim();
     if(address==null || address==""){
       alert("Address can not be blank");
+      return false;
+    }
+    else if(address.length<15){
+      alert("Address must have 15 characters");
       return false;
     }
  
