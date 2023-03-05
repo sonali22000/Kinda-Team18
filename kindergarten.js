@@ -103,6 +103,10 @@ else if(kidsname.length>20){
       alert("Address can not be blank");
       return false;
     }
+    else if(address.length<15){
+      alert("Address must have 15 characters");
+      return false;
+    }
  
     let parentsname=(document.formk.parentsname.value).trim();
     if(parentsname==null || parentsname==""){
