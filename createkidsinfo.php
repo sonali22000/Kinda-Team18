@@ -33,7 +33,7 @@ include "headerr.php"?>
     <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" required><br>
     <input id="address" type="text" name="address" class="form-control" placeholder="Address:" required><br>
     
-    <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="CreateStudentProfile" name="submit" <span onmouseover="this.style.color='red';
            this.style.backgroundColor='black';
            this.style.fontSize='1em'; ";
 onmouseout="
@@ -41,40 +41,25 @@ onmouseout="
            this.style.backgroundColor='white';
            this.style.fontSize='1.1em';"; > 
            </span>
+        <button onclick="window.location.href='viewkidsinfo.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 Meet Our Kids</span></button>
+
+                 <br> <br>
+<a class="btn btn-danger" href="contact.php" role="button">Back</a>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> 
     </div>
  </div>    
  
 </form>
-<script>
-   function formkval(){
-    <!--checking name-->
-  let name=(document.formk.kidsname.value).trim();
-  if(name.length<5){
-      alert("Kids name must have 5 characters");
-      return false;
-  }
-  else if(name.length>20){  
-        alert("Name can't more than 20 characters");  
-        return false;  
-      }
-      <!--checking phone number-->
-    let pnum=(document.formk.phone.value).trim();
-    else if(phone.length<10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    else if(phone.length>10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    let email=(document.formk.email.value).trim();
-    if (email==null || email==""){  
-        alert("Email can't be blank");  
-        return false;  
-      }
 
-}
-</script>
 <!--Getting values from end user-->
 
 <?php

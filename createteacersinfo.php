@@ -16,7 +16,9 @@ include "headerr.php"?>
       competencies can be learnt and adapted.</p>
       <img src="image/teachersinfo.jpg" class="teachers-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
       <br><br>
+      
     </div>
+
     
 <!--Creating form-->
 <br><br>
@@ -32,7 +34,7 @@ include "headerr.php"?>
     <textarea name="bio" class="form-control"  rows="3" placeholder="Bio:"  required></textarea><br>
     
 
-    <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="CreateTeacherProfile" name="submit" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -40,41 +42,30 @@ include "headerr.php"?>
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; > 
                  </span>
+    <button onclick="window.location.href='viewteachersinfo.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 Meet Our Teachers</span></button>
+                 
+<br> <br>
+<a class="btn btn-danger" href="contact.php" role="button">Back</a>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+    
     </div>
+    
  </div>    
  
 </form>
 
-<script>
-   function formtval(){
-    <!--checking name-->
-  let name=(document.formt.tname.value).trim();
-  if(name.length<5){
-      alert("Teacher name must have 5 characters");
-      return false;
-  }
-  else if(name.length>20){  
-        alert("Name can't more than 20 characters");  
-        return false;  
-      }
-      <!--checking phone number-->
-    let pnum=(document.formt.phone.value).trim();
-    else if(phone.length<10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    else if(phone.length>10){
-        alert("Enter 10 digits phone number");
-      return false;
-    }
-    let email=(document.formt.email.value).trim();
-    if (email==null || email==""){  
-        alert("Email can't be blank");  
-        return false;  
-      }
 
-}
-</script>
+
 <!--Getting values from end user-->
 
 <?php
@@ -97,7 +88,7 @@ if (isset($_POST ['submit'])){
     }
 
 }
-
-
 ?>
+
+
 <?php include "footer1.php" ?>

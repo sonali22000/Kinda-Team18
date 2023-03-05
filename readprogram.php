@@ -4,33 +4,35 @@ $title = "Read data from database";
 
 include "headerr.php";
 include 'db.php';
-$sql ="select * from activitieslist";
+$sql ="select * from program";
 $result = $conn->query($sql);
 
 
 if($result->num_rows > 0){
     echo" <table class = 'table'>
         <tr>
-        <th>    ID        </th> 
-        <th>    Activities Name </th> 
+        <th>    Program ID       </th> 
+        <th>    Porgram Name </th> 
         <th>    Description  </th> 
-        <th>    Location       </th> 
-        <th>    Start Date    </th>
-        <th>    End Date   </th>
-        <th>    Capacity    </th>
+        <th>    Start date       </th> 
+        <th>    End date    </th>
+        <th>    Capacity   </th>
+        <th>    Kids ID    </th>
+        <th>    Teacher ID    </th>
         </tr>";
 
 
         while($row = $result -> fetch_assoc()) {
             echo "
             <tr>
-            <td><a href='updateactivitieslist.php?id=$row[id]'>$row[id] </a>     </td>
-            <td> $row[aname]     </td>
-            <td> $row[description]     </td>
-            <td> $row[location]      </td>
+            <td><a href='updatedeleteprogram.php?programid=$row[programid]'>$row[programid] </a>  </td>   
+            <td> $row[pname]     </td>
+            <td> $row[description]      </td>
             <td> $row[startdate]   </td>
             <td> $row[enddate]   </td>
             <td> $row[capacity]   </td>
+            <td> $row[kidsid]   </td>
+            <td> $row[teid]   </td>
             </tr>
             ";
     }
@@ -44,6 +46,12 @@ else
 $conn-> close();
 
 ?>
+
+<div class="col-md-6">
+<br>  
+<a class="btn btn-danger" href="createprogram.php" role="button">Back</a>
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
 
 

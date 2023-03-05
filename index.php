@@ -78,13 +78,13 @@ include "headerr.php"?>
 <!--Creating form-->
 
     <div class="col-md-6" style="text-align:left;">
-    <form method="post" action="" onsubmit="return validateform()"name="form1">
-    <input type="text" name="fname" placeholder="First Name" class="form-control" ><br>
-    <input type="text" name="lname"  placeholder="Last Name" class="form-control" ><br>
-    <input type="text" name="address"  placeholder="Postal Address" class="form-control"><br>
-    <input type="int" name="postalcode"  placeholder="Postal Code" class="form-control"><br>
-    <input type="int" name="contactno"  placeholder="Contact Number" class="form-control"><br>
-    <input type="text" name="emailid"  placeholder="Email" class="form-control"><br><br>
+    <form method="post" action="" onsubmit="return validateForm()"name="form1">
+    <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
+    <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>
+    <input type="text" name="address" required placeholder="Postal Address" class="form-control"><br>
+    <input type="int" name="postalcode" required placeholder="Postal Code" class="form-control"><br>
+    <input type="int" name="contactno" required placeholder="Contact Number" class="form-control"><br>
+    <input type="text" name="emailid" required placeholder="Email" class="form-control"><br><br>
     <span class="material-icons" style="font-size:60px;color:darkblue;">
       upload_file
    </span>Upload CV <input type="file" id="myFile" name="filename"><br><br><br>
