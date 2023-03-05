@@ -16,9 +16,9 @@ include "headerr.php"?>
 <div class="col-md-6" style="text-align:left;">
 
 
-<from method="post" action="">
+<from method="post" action="" onsubmit="return formkval()" name="formk">
 <div class="row">
-
+        <br><br>
          <div class="form-group mb-4" style="color: black;>
               <label for= "kidsname" >Kids Name:</label>
               <input name="kidsname" type="text" name="kidsname" class="form-control" placeholder="Example: Noah Fedrick" style="width: 500px" required></input>

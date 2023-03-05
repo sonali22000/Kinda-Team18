@@ -149,9 +149,6 @@ if(isset($_POST['Apply'])){
 
 
 
-<?php include "footer1.php" ?>
-
-
 
 
 
