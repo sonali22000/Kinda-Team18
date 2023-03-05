@@ -11,6 +11,12 @@ if (fname==null || fname==""){
   return false;  
 }
 
+let lname=document.form1.lname.value;  
+// to check if last name is empty if not  
+if (lname==null || lname==""){  
+  alert("Last Name can't be blank");  
+  return false;  
+}
 
   
 //validateform for formprogram
