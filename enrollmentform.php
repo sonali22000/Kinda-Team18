@@ -44,8 +44,8 @@ include "headerr.php"?>
               <input id="phone" type="int" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <button type="submit" class="btn btn btn-yellow btn-outline" >
-              <input type="Submit" value="Submit" name="submit" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
+              <button type="submit" class="btn btn btn-red btn-outline" >
+              <input type="Submit" value="Submit" name="submit" style="color:RED; font-weight: bold; background-color: Yellow;" class="btn btn btn-yellow btn-outline">
             <div>
         
         </div>
