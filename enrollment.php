@@ -68,8 +68,8 @@
 
    <div class="col-md-6">
    <select name="pname">
-    <option value="ONLINE ADDMISSION"> ONLINE ADDMISSION </option>
     <option value="ORDER BOOK LIST"> ORDER BOOK LIST </option>
+    <option value="ORDER SCHOOL BAG"> ORDER SCHOOL BAG </option>
    
     </select><br> <br>
 
