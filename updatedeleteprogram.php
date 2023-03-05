@@ -37,7 +37,7 @@ $row = mysqli_fetch_array($result)
   <input type="int" name="teid" required value = "<?php echo $row['teid'];?>" placeholder="Teid" class="form-control" >  <br> 
  
  
-  <input type ="submit" value ="Update your data" name="update"  <span onmouseover="this.style.color='red';
+  <input type ="submit" value ="Edit Program" name="update"  <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -46,7 +46,7 @@ $row = mysqli_fetch_array($result)
                  this.style.fontSize='1.1em';"; > 
                  </span>  
                  <br> <br> 
-  <input type ="submit" value ="Delete your data" name="delete"   <span onmouseover="this.style.color='red';
+  <input type ="submit" value ="Delete Program" name="delete"   <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
