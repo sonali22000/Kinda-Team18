@@ -56,11 +56,10 @@
 <p>Enrolling them in kindergarten is crucial for their learning and growth, and preparing them early will go a long way.
 <br><br>Educating your child privately is simply too large an investment to make without seeking professional advice.
 And we are ensure the best for your kid</p>
-<img src="image/down.jpg">
+<img src="image/bb.jpg" alt="image" class="rounded" width="550" height="300" style="align-items: right;">
 
 
-<br><br><br><br><br><br><li><a href="enrollmentform.php"><i class="material-icons" style="font-size:60px;color:black text-center;">contacts</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
-</span></li>
+
 
 
 
@@ -100,7 +99,8 @@ And we are ensure the best for your kid</p>
                  this.style.fontSize='1.1em';"; > 
                  
   
-
+<br><li><a href="enrollmentform.php"><i class="material-icons" style="font-size:100px;color:RED;text-center;">book</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
+</span></li>
 
   <br> <br> <br> <br> <br> <br>
                 
