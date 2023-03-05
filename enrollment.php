@@ -54,7 +54,9 @@
 <div class="col-md-6">
 <h4><b>Why you should enroll your child to our kindergarten</b> <br> <br></h4>
 <p>Enrolling them in kindergarten is crucial for their learning and growth, and preparing them early will go a long way.
-<br><br>Educating your child privately is simply too large an investment to make without seeking professional advice.And we are ensure the best for your kid</p>
+<br><br>Educating your child privately is simply too large an investment to make without seeking professional advice.
+And we are ensure the best for your kid</p>
+<img src="image/down.jpg">
 
 
 <br><br><br><br><br><br><li><a href="enrollmentform.php"><i class="material-icons" style="font-size:60px;color:black text-center;">contacts</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
