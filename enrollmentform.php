@@ -3,7 +3,18 @@ $title="crup app for kindergarten";
 include "headerr.php"?>
 
 
-<!-- creating form for enrollment-->
+<div class="row">
+ <div class="col-md-6" style="text-align:left;">
+ <br><br>
+    <h5><b>WELCOME TO SCHOOL</b></h5>
+    <p>Children love knowing that they’re appreciated by the people around them. Praise them, and let them know that they are a blessing to this world. Each one is unique, and they will leave their own marks in this world..</p>
+      <img src="image/enrollment.jpeg" class="kids-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
+      
+    </div>
+
+<!-- creating form for enrollmentForm-->
+<div class="col-md-6" style="text-align:left;">
+
 
 <from method="post" action="">
 <div class="row">
