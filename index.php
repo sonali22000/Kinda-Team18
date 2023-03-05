@@ -78,13 +78,13 @@ include "headerr.php"?>
 <!--Creating form-->
 
     <div class="col-md-6" style="text-align:left;">
-    <form method="post" action="" onsubmit="return validateForm()"name="form1">
-    <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
-    <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>
-    <input type="text" name="address" required placeholder="Postal Address" class="form-control"><br>
-    <input type="int" name="postalcode" required placeholder="Postal Code" class="form-control"><br>
-    <input type="int" name="contactno" required placeholder="Contact Number" class="form-control"><br>
-    <input type="text" name="emailid" required placeholder="Email" class="form-control"><br><br>
+    <form method="post" action="" onsubmit="return validateform()"name="form1">
+    <input type="text" name="fname" placeholder="First Name" class="form-control" ><br>
+    <input type="text" name="lname"  placeholder="Last Name" class="form-control" ><br>
+    <input type="text" name="address"  placeholder="Postal Address" class="form-control"><br>
+    <input type="int" name="postalcode"  placeholder="Postal Code" class="form-control"><br>
+    <input type="int" name="contactno"  placeholder="Contact Number" class="form-control"><br>
+    <input type="text" name="emailid"  placeholder="Email" class="form-control"><br><br>
     <span class="material-icons" style="font-size:60px;color:darkblue;">
       upload_file
    </span>Upload CV <input type="file" id="myFile" name="filename"><br><br><br>
@@ -123,7 +123,43 @@ else{
         echo "Error:" . $conn->error;
 }
 }
+
 ?>
+<!-- Validate the form data-->
+<script type = "text/javascript">
+    function validateform(){  
+
+//validating name
+let firstname=document.form1.fname.value;  
+// to check if name is empty of not  
+if (fname==null || fname==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+// to check if first name has atleast 5 characters
+else if(fname.length<2){  
+    alert("Name can't less than 2 characters");  
+    return false;  
+  }
+// // to ensure name cannot be more than 5 characters
+
+let lastname=document.form1.lname.value;  
+// to check if last name is empty of not  
+if (lname==null || lname==""){  
+  alert("Last Name can't be blank");  
+  return false;  
+}
+ //validating email 
+ let email=document.form1.emailid.value;
+    if (emailid==null || emailid==""){  
+        alert("Email can't be blank");  
+        return false;  
+      }
+
+}  
+</script>
+<!--end of form validation-->
+
 <?php include "footer1.php" ?>
 
 
