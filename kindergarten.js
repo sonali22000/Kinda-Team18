@@ -24,7 +24,7 @@ if (lname==null || lname==""){
         alert("Email can't be blank");  
         return false;  
       }
-  
+    }
 //validateform for formprogram
 
 function formkval(){
