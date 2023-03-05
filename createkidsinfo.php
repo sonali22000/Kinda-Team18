@@ -3,43 +3,37 @@ $title="crup app for kindergarten";
 include "headerr.php"?>
 
 
-<!-- creating form for kidsinfo-->
-
-<form  method="post"  action=""> 
 <div class="row">
+ <div class="col-md-6" style="text-align:left;">
+ <br><br>
+    <h5><b>Our Kids</b></h5>
+    <p>Early Learning captures the essence of what Your Kids Our Kids is all about, nurturing and stimulating enviroments 
+      that inspire a love of learning. 'Early Learning' happens everywhere. Young children develop at an extremely fast pace 
+      and everthing they encounter offers a learning experience. Research shows us that children who start ahead tend to stay 
+      ahead. Significant differences in children's development are evident by age two and have a tendency not to close over 
+      time. The early years provide the foundation for the rest of a child's life. Children are born ready to learn and the 
+      best learning happens in nurturing, positive, stimulating environments. That's why high-quality early learning experiences 
+      are so important. By creating these environments, we're providing the best opportunities for children to fulfil their 
+      potential.</p>
+      <img src="image/kidsinfo.jpg" class="kids-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
+      
+    </div>
+   
+ 
+<!--Creating form-->
+
+    <div class="col-md-6" style="text-align:left;">
+    <br><br>
+    <form method="post" action="" onsubmit="return formkval()" name="formk">
+    <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Kids ID:" required><br>
+    <input type="text" name="kidsname" class="form-control" placeholder="Kids Name:" required><br>
+    <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Parents Name:" required><br>
+    <input id="dob" type="date" name="dob" class="form-control" placeholder="Kids Birth Day:" required><br>
+    <input id="phone" type="int" name="phone" class="form-control" placeholder="Contact Number:" required><br>
+    <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" required><br>
+    <input id="address" type="text" name="address" class="form-control" placeholder="Address:" required><br>
     
-              
-    <div class="form-group mb-4" style="color: black;>
-              <label for="kidsid">Kids ID:</label>
-              <input id="kidsid" type="int" name="kidsid" class="form-control" placeholder="Example: 001" style="width: 500px" required></input>
-            </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="kidsname">Kids Name:</label>
-              <input id="kidsname" type="text" name="kidsname" class="form-control" placeholder="Example: Situ Anna" style="width: 500px" required>
-            </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="parentsname">Parents Name:</label>
-              <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Example: Nura Pekka" style="width: 500px" required>
-            </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="dob">Kids Birth Day:</label>
-              <input id="dob" type="date" name="dob" class="form-control" placeholder="Example: 05.05.2020" style="width: 500px" required>
-            </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="phone">Contact Number:</label>
-              <input id="phone" type="int" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
-            </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="email">E-mail Address:</label>
-              <input  type="text" name="email" class="form-control" placeholder="Example: xxxxxxxa@xxxxx.xxx" style="width: 500px" required>
-            </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="address">Address:</label>
-              <input id="address" type="text" name="address" class="form-control" placeholder="Example: Kaivoselantie 4, Hameenlinna"  style="width: 500px" required>
-            </div>
-            <div class="form-group my-4" >
-        
-        <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="Submit" name="submit" <span onmouseover="this.style.color='red';
            this.style.backgroundColor='black';
            this.style.fontSize='1em'; ";
 onmouseout="
@@ -47,13 +41,21 @@ onmouseout="
            this.style.backgroundColor='white';
            this.style.fontSize='1.1em';"; > 
            </span>
-      <div>
-  
-  </div>
-  
-  
-</div>
+        <button onclick="window.location.href='viewkidsinfo.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 View Kids</span></button>
+    </div>
+ </div>    
+ 
+</form>
 
+<!--Getting values from end user-->
 
 <?php
 if (isset($_POST ['submit'])){
