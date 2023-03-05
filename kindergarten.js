@@ -18,6 +18,12 @@ if (lname==null || lname==""){
   return false;  
 }
 
+ //validating email 
+ let emailid=document.form1.emailid.value;
+    if (emailid==null || emailid==""){  
+        alert("Email can't be blank");  
+        return false;  
+      }
   
 //validateform for formprogram
 
