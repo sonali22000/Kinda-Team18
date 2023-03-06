@@ -33,8 +33,7 @@ include "headerr.php"?>
     <input  type="email" name="email" class="form-control" placeholder="E-mail Address:" required><br>
     <input id="address" type="text" name="address" class="form-control" placeholder="Address:" required><br>
     
-    <input type="Submit" value="Submit" name="submit" ><span onmouseover="this.style.color='red';
-=======
+   
     <input type="Submit" value="CreateStudentProfile" name="submit" <span onmouseover="this.style.color='red';
 
            this.style.backgroundColor='black';
