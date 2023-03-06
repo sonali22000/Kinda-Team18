@@ -27,6 +27,9 @@ if (lname==null || lname==""){
     }
 //validateform for formprogram
 
+
+//validateform for forteachersinfo
+
 function formkval(){
   
 let kidsname=(document.formk.kidsname.value).trim();
