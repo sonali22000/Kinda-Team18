@@ -71,26 +71,26 @@ And we are ensure the best for your kid</p>
    <select name="pname">
     <option value="ORDER BOOK LIST"> ORDER BOOK LIST </option>
     <option value="ORDER SCHOOL BAG"> ORDER SCHOOL BAG </option>
+    
    
     </select><br> <br>
 
    
-   <input type="text" name="Name of the kid" required placeholder="Name of the kid" class="form-control"> <br>
+   <input type="text" name="KidsName" required placeholder="KidsName" class="form-control"> <br>
 
 
-  <input type="text" name="Guardian Details" required placeholder="Please Enter Mother or Father's name" class="form-control" > <br>
+  <input type="text" name="ParentsNameandRelationship" required placeholder="ParentsNameandRelationship" class="form-control" > <br>
 
-  <input type="date" name="Birth Date" required placeholder="Birth Date" class="form-control" > <br>
+  <input type="int" name="KidsId" required placeholder="KidsId" class="form-control" > <br>
 
 
-  <input type="int" name="phone number" required placeholder="Phone Number" class="form-control" >  <br> 
+  <input type="int" name="Address" required placeholder="Address" class="form-control" >  <br> 
 
-  <input type="int" name="KidsId" required placeholder="Kidsid" class="form-control" > <br> 
+  <input type="int" name="KidsBirthDay" required placeholder="KidsBirthDay" class="form-control" > <br> 
 
-  <input type="int" name="Age of Kid" required placeholder="Age of Kid" class="form-control" >  <br> 
- 
+  
 
-  <input type="submit" value="Apply" name="Apply"  <span onmouseover="this.style.color='red';
+  <input type="submit" value="Apply" name="Apply" > <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -99,7 +99,7 @@ And we are ensure the best for your kid</p>
                  this.style.fontSize='1.1em';"; > 
                  
   
-<br><li><a href="enrollmentform.php"><i class="material-icons" style="font-size:100px;color:RED;text-center;">book</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
+<br><li><a href="enrollment.php"><i class="material-icons" style="font-size:100px;color:RED;text-center;">book</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
 </span></li>
 
   <br> <br> <br> <br> <br> <br>
@@ -123,16 +123,14 @@ And we are ensure the best for your kid</p>
 //Getting values from end user
 
 if(isset($_POST['Apply'])){
-   $pname=$_POST['pname'];
-   $description=$_POST['Name of the Kid'];
-   $startdate=$_POST['Please enter Mother or Fathers name'];
-   $enddate=$_POST['Birth Date'];
-   $capacity=$_POST['Phone Number'];
-   $kidsid=$_POST['kidsid'];
-   $teid=$_POST['Age of Kid'];
+   $KidsName=$_POST['KidsName'];
+   $ParentsNameandRelationship=$_POST['ParentsNameandRelationship'];
+   $KidsId=$_POST['KidsId'];
+   $Address=$_POST['Address'];
+   $KidsBirthDay=$_POST['KidsBirthDay'];
    include 'db.php';
-   $sql="insert into Enrollment Form(Kids Name,Parents Name and Relationship,email,Address,Kids Birth Day,Contact Number)
-   values('$pname,$KidsName,$ParentsNameAndRelationship,$email,$Address,$KidsBirthDay,$ContantNumber')";
+   $sql="insert into program(KidsName,ParentsNameandRelationship,KidsId,Address,KidsBirthDay)
+   values('$KidsName','$ParentsNameandRelationship','$KidsId','$Address','$KidsBirthDay')";
    if($conn->query($sql)===TRUE){
                
      echo"Your datas are added successfully";
