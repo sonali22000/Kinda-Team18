@@ -5,29 +5,29 @@ function formindex(){
 
   let fname=(document.form1.fname.value).trim();
 if (fname==null||fname== ""){
-  alert("Please enter a valid Kids Name.");
+  alert("Please enter a valid Name.");
   return false;
 }
 else if(fname.length<5){
-    alert("Kids Name must have at least 5 character");
+    alert("Name must have at least 5 character");
     return false;
 }
 else if(fname.length>20){  
-      alert("Kids Name can't more than 20 characters");  
+      alert("Name can't more than 20 characters");  
       return false;  
     }
   
     let lname=(document.form1.lname.value).trim();
 if (lname==null||lname== ""){
-  alert("Please enter a valid Kids Name.");
+  alert("Please enter a valid Last Name.");
   return false;
 }
 else if(lname.length<5){
-    alert("Kids Name must have at least 5 character");
+    alert("Last Name must have at least 5 character");
     return false;
 }
 else if(lname.length>20){  
-      alert("Kids Name can't more than 20 characters");  
+      alert("Last Name can't be more than 20 characters");  
       return false;  
     }
   
@@ -52,7 +52,7 @@ else if(lname.length>20){
       return false;
     }
     else if(address.length<15){
-      alert("Address must have 15 characters");
+      alert("Address must have more than 15 characters");
       return false;
     }
   }
@@ -83,13 +83,13 @@ else if(capacity.length<2){
 let kidsid=document.formprogram.kidsid.value;  
 
 if (kidsid==null || kidsid==""){  
-  alert("Please enter a valid kidsid");  
+  alert("Please enter a valid kids identification");  
   return false;  
 }
 let teid=document.formprogram.teid.value;  
 
 if (teid==null || teid==""){  
-  alert("Please enter a valid teid");  
+  alert("Please enter a valid teachers identification");  
   return false;  
 }
 }
@@ -109,7 +109,7 @@ else if(kidsname.length<5){
     return false;
 }
 else if(kidsname.length>20){  
-      alert("Kids Name can't more than 20 characters");  
+      alert("Kids Name can't be more than 20 characters");  
       return false;  
     }
   
@@ -133,7 +133,7 @@ else if(kidsname.length>20){
       return false;
     }
     else if(address.length<15){
-      alert("Address must have 15 characters");
+      alert("Address must have more than 15 characters");
       return false;
     }
  
@@ -147,7 +147,7 @@ else if(kidsname.length>20){
       return false;
     }
     else if(parentsname.length>20){  
-      alert("Parents Name can't more than 20 characters");  
+      alert("Parents Name can't be more than 20 characters");  
       return false;  
     }
 
@@ -165,7 +165,7 @@ else if(tname.length<5){
     return false;
 }
 else if(tname.length>20){  
-      alert("Teachers Name can't more than 20 characters");  
+      alert("Teachers Name can't be more than 20 characters");  
       return false;  
     }
    
@@ -189,7 +189,7 @@ else if(tname.length>20){
       return false;
     }
     else if(address.length<15){
-      alert("Address must have 15 characters");
+      alert("Address must have more than 15 characters");
       return false;
     }
     let bio=(document.formt.bio.value).trim();
