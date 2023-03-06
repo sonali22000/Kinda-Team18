@@ -78,7 +78,7 @@ include "headerr.php"?>
 <!--Creating form-->
 
     <div class="col-md-6" style="text-align:left;">
-    <form method="post" action="" onsubmit="return formindex()"name="form1">
+    <form method="post" action="" onsubmit="return formindex()" name="form1">
     <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
     <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>
     <input type="text" name="address" required placeholder="Postal Address" class="form-control"><br>
@@ -103,20 +103,12 @@ include "headerr.php"?>
 
 <!--Getting values from end user-->
 
-<?php 
-if(isset($_POST['Apply'])){
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
-    $address = $_POST['address'];
-    $postalcode = $_POST['postalcode'];
-    $contactno = $_POST['contactno'];
-    $emailid = $_POST['emailid'];
-    include 'db.php';
-    $sql="insert into teacherscareer(fname,lname,address,postalcode,contactno,emailid)
-    values('$fname', '$lname', '$address', '$postalcode','$contactno', '$emailid')";
 
-if ($conn->query($sql)===true){
 
+<<<<<<< HEAD
+</script>
+<!--end of form validation-->
+=======
         echo "Your information is added successflly";
 }
 else{
@@ -126,8 +118,7 @@ else{
 
 ?>
  
-</script>
-<!--end of form validation-->
+>>>>>>> 47204a48ec7f8922a7b9c42c8ce0c10ca5fdd1ee
 
 <?php include "footer1.php" ?>
 
