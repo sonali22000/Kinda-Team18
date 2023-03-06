@@ -1,33 +1,37 @@
 
 
 //validateform for formindex
-    function validateForm(){  
+function validateForm(){  
 
-//validating name
-let fname=document.form1.fname.value;  
-// to check if name is empty of not  
-if (fname==null || fname==""){  
-  alert("Name can't be blank");  
-  return false;  
-}
-
-let lname=document.form1.lname.value;  
-// to check if last name is empty if not  
-if (lname==null || lname==""){  
-  alert("Last Name can't be blank");  
-  return false;  
-}
-
- //validating email 
- let emailid=document.form1.emailid.value;
-    if (emailid==null || emailid==""){  
-        alert("Email can't be blank");  
-        return false;  
+  //validating name
+  let fname=document.form1.fname.value;  
+  // to check if name is empty of not  
+  if (fname==null || fname==""){  
+    alert("Name can't be blank");  
+    return false;  
+  }
+  
+  let lname=document.form1.lname.value;  
+  // to check if last name is empty if not  
+  if (lname==null || lname==""){  
+    alert("Last Name can't be blank");  
+    return false;  
+  }
+  
+   //validating email 
+   let emailid=document.form1.emailid.value;
+      if (emailid==null || emailid==""){  
+          alert("Email can't be blank");  
+          return false;  
+        }
       }
+<<<<<<< HEAD
     }
 
 
 
+=======
+>>>>>>> 157e9a9e631ce9f2f17a300d708f5fde773faa13
 //validateform for formprogram
 function formproramval(){  
   let description=document.formprogram.description.value;  
