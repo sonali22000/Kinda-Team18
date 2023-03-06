@@ -56,7 +56,7 @@
 <p>Enrolling them in kindergarten is crucial for their learning and growth, and preparing them early will go a long way.
 <br><br>Educating your child privately is simply too large an investment to make without seeking professional advice.
 And we are ensure the best for your kid</p>
-<img src="image/bb.jpg" alt="image" class="rounded" width="550" height="300" style="align-items: right;">
+<img src="image/bb.jpg" alt="image" class="rounded" width="550" height="285" style="align-items: right;">
 
 
 
@@ -70,17 +70,17 @@ And we are ensure the best for your kid</p>
    <div class="col-md-6">
   
     
-
+<br><br><br>
    
-   <input type="int" name="programid" required placeholder="programid" class="form-control"> <br>
+   <input type="int" name="programid" required placeholder="programid" class="form-control"> <br><br><br>
 
 
-  <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br>
+  <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br><br><br>
 
-  <input type="date" name="enrollmentdate" required placeholder="Enrollmentdate" class="form-control" > <br>
+  <input type="date" name="enrollmentdate" required placeholder="Enrollmentdate" class="form-control" > <br><br><br>
 
 
-  <input type="int" name="academicyear" required placeholder="Academicyear" class="form-control" >  <br> 
+  <input type="int" name="academicyear" required placeholder="Academicyear" class="form-control" >  <br><br><br>
 
  
 
