@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: Mar 06, 2023 at 08:28 AM
+-- Generation Time: Mar 06, 2023 at 10:57 AM
 -- Server version: 8.0.32
 -- PHP Version: 8.0.19
 
@@ -126,7 +126,8 @@ INSERT INTO `teacherscareer` (`refno`, `fname`, `lname`, `address`, `postalcode`
 (12, 'neda', 'Maghrebi', 'visaaaaa', 13100, 415703082, 'neda22000@student.hamk.fi'),
 (13, 'neda', 'Maghrebi', 'visaaaaa', 13100, 415703082, 'neda22000@student.hamk.fi'),
 (14, ' ', 'Maghrebi', 'visaaaaa', 13100, 415703082, 'neda22000@student.hamk.fi'),
-(15, ' ', 'Maghrebi', '567888', 3333, 13962868, 'maghrebi.n655@gmail.com');
+(15, ' ', 'Maghrebi', '567888', 3333, 13962868, 'maghrebi.n655@gmail.com'),
+(16, ' ', 'Maghrebi', '567888', 3333, 13962868, 'maghrebi.n655@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -221,7 +222,7 @@ ALTER TABLE `program`
 -- AUTO_INCREMENT for table `teacherscareer`
 --
 ALTER TABLE `teacherscareer`
-  MODIFY `refno` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `refno` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `teachersinfo`
