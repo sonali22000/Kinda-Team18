@@ -104,8 +104,6 @@ include "headerr.php"?>
 <!--Getting values from end user-->
 
 
-
-</script>
 <!--end of form validation-->
 
 <?php include "footer1.php" ?>
