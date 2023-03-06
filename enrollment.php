@@ -86,7 +86,7 @@ And we are ensure the best for your kid</p>
 
   
 
-  <input type="submit" value="Apply" name="Apply" <span onmouseover="this.style.color='red';
+  <input type="submit" value="Apply" name="Apply"> <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -94,7 +94,15 @@ And we are ensure the best for your kid</p>
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; >
                  
-  
+                 <button onclick="window.location.href='viewenrollmentform.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 View</span></button>
 
 
   <br> <br> <br> <br> <br> <br>
