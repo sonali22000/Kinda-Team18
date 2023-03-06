@@ -48,7 +48,7 @@
 
  <!-- creating form for program in kindergarten-->
 
-<form  method="post"  action="" onsubmit="return validateForm()" name="formprogram"> 
+<form  method="post"  action="" onsubmit="return formproramval()" name="formprogram"> 
 
 
 <div class="row">

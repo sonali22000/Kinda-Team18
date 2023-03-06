@@ -1,31 +1,70 @@
 
 
 //validateform for formindex
-    function validateForm(){  
+function validateForm(){  
 
-//validating name
-let fname=document.form1.fname.value;  
-// to check if name is empty of not  
-if (fname==null || fname==""){  
-  alert("Name can't be blank");  
-  return false;  
-}
-
-let lname=document.form1.lname.value;  
-// to check if last name is empty if not  
-if (lname==null || lname==""){  
-  alert("Last Name can't be blank");  
-  return false;  
-}
-
- //validating email 
- let emailid=document.form1.emailid.value;
-    if (emailid==null || emailid==""){  
-        alert("Email can't be blank");  
-        return false;  
+  //validating name
+  let fname=document.form1.fname.value;  
+  // to check if name is empty of not  
+  if (fname==null || fname==""){  
+    alert("Name can't be blank");  
+    return false;  
+  }
+  
+  let lname=document.form1.lname.value;  
+  // to check if last name is empty if not  
+  if (lname==null || lname==""){  
+    alert("Last Name can't be blank");  
+    return false;  
+  }
+  
+   //validating email 
+   let emailid=document.form1.emailid.value;
+      if (emailid==null || emailid==""){  
+          alert("Email can't be blank");  
+          return false;  
+        }
       }
-    }
+
 //validateform for formprogram
+function formproramval(){  
+let description=document.formprogram.description.value;  
+
+if (description==null || description==""){  
+  alert("Please enter a valid description");  
+  return false;  
+}
+else if(description.length<3){
+  alert("description must have more than 3 characters");
+  return false;
+}
+
+let capacity=document.formprogram.capacity.value;  
+
+if (capacity==null || capacity==""){  
+  alert("Please enter a valid capacity");  
+  return false;  
+}
+else if(capacity.length<2){
+  alert("capacity can not be more than 99");
+  return false;
+}
+let kidsid=document.formprogram.kidsid.value;  
+
+if (kidsid==null || kidsid==""){  
+  alert("Please enter a valid kidsid");  
+  return false;  
+}
+let teid=document.formprogram.teid.value;  
+
+if (teid==null || teid==""){  
+  alert("Please enter a valid teid");  
+  return false;  
+}
+}
+
+
+//validateform for forteachersinfo
 
 function formkval(){
   

@@ -21,20 +21,7 @@ SET time_zone = "+00:00";
 -- Database: `cappteam18`
 --
 
--- --------------------------------------------------------
 
---
--- Table structure for table `enrollment`
---
-
-CREATE TABLE `Enrollment Form` (
-  `kidsname` int NOT NULL,
-  `programidparentsnameandrelationship` int NOT NULL,
-  `email` int NOT NULL,
-  `address` date NOT NULL,
-  `kidsbirthdate` date NOT NULL,
-  `contactnumber` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
