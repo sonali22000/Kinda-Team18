@@ -126,8 +126,6 @@ else{
 
 ?>
  
-</script>
-<!--end of form validation-->
 
 <?php include "footer1.php" ?>
 

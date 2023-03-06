@@ -4,14 +4,14 @@
 function formindex(){  
 
   //validating name
-  let fname=document.form1.fname.value;  
+  let fname=document.form1.fname.value.trim();
   // to check if name is empty of not  
   if (fname==null || fname==""){  
     alert("Name can't be blank");  
     return false;  
   }
   
-  let lname=document.form1.lname.value;  
+  let lname=document.form1.lname.value.trim();
   // to check if last name is empty if not  
   if (lname==null || lname==""){  
     alert("Last Name can't be blank");  
@@ -19,7 +19,7 @@ function formindex(){
   }
   
    //validating email 
-   let emailid=document.form1.emailid.value;
+   let emailid=document.form1.emailid.value.trim();
       if (emailid==null || emailid==""){  
           alert("Email can't be blank");  
           return false;  
