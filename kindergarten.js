@@ -55,6 +55,7 @@ else if(lname.length>20){
       alert("Address must have 15 characters");
       return false;
     }
+  }
 
 //validateform for formprogram
 function formproramval(){  
