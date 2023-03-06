@@ -131,8 +131,8 @@ if(isset($_POST['Apply'])){
    $kidsid=$_POST['kidsid'];
    $teid=$_POST['Age of Kid'];
    include 'db.php';
-   $sql="insert into program(pname,Name of the Kid,Please enter Mother or Fathers name,Birth Date,Phone Number,KidsId,Age of Kid)
-   values('$pname,$NameoftheKid,$PleaseEnterMotherorFathersname,$BirthDate,$PhoneNumber,$KidsId,$AgeofKid')";
+   $sql="insert into Enrollment Form(Kids Name,Parents Name and Relationship,email,Address,Kids Birth Day,Contact Number)
+   values('$pname,$KidsName,$ParentsNameAndRelationship,$email,$Address,$KidsBirthDay,$ContantNumber')";
    if($conn->query($sql)===TRUE){
                
      echo"Your datas are added successfully";
