@@ -96,6 +96,16 @@ include "headerr.php"?>
                  this.style.color='blue';
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; >
+        <button onclick="window.location.href='viewapplyers.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 View Applyers</span></button>
+
     </div>
  </div>    
  
