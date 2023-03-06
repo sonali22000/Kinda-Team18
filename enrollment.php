@@ -56,7 +56,7 @@
 <p>Enrolling them in kindergarten is crucial for their learning and growth, and preparing them early will go a long way.
 <br><br>Educating your child privately is simply too large an investment to make without seeking professional advice.
 And we are ensure the best for your kid</p>
-<img src="image/bb.jpg" alt="image" class="rounded" width="550" height="300" style="align-items: right;">
+<img src="image/bb.jpg" alt="image" class="rounded" width="550" height="285" style="align-items: right;">
 
 
 
@@ -70,23 +70,23 @@ And we are ensure the best for your kid</p>
    <div class="col-md-6">
   
     
-
+<br><br><br>
    
-   <input type="int" name="programid" required placeholder="programid" class="form-control"> <br>
+   <input type="int" name="programid" required placeholder="programid" class="form-control"> <br><br><br>
 
 
-  <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br>
+  <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br><br><br>
 
-  <input type="date" name="enrollmentdate" required placeholder="Enrollmentdate" class="form-control" > <br>
+  <input type="date" name="enrollmentdate" required placeholder="Enrollmentdate" class="form-control" > <br><br><br>
 
 
-  <input type="int" name="academicyear" required placeholder="Academicyear" class="form-control" >  <br> 
+  <input type="int" name="academicyear" required placeholder="Academicyear" class="form-control" >  <br><br><br>
 
  
 
   
 
-  <input type="submit" value="Apply" name="Apply" <span onmouseover="this.style.color='red';
+  <input type="submit" value="Apply" name="Apply"> <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -94,7 +94,15 @@ And we are ensure the best for your kid</p>
                  this.style.backgroundColor='white';
                  this.style.fontSize='1.1em';"; >
                  
-  
+                 <button onclick="window.location.href='viewenrollmentform.php';">
+       <span onmouseover="this.style.color='red';
+                 this.style.backgroundColor='black';
+                 this.style.fontSize='1em'; ";
+      onmouseout="
+                 this.style.color='blue';
+                 this.style.backgroundColor='white';
+                 this.style.fontSize='1.1em';"; > 
+                 View</span></button>
 
 
   <br> <br> <br> <br> <br> <br>
@@ -132,7 +140,7 @@ if(isset($_POST['Apply'])){
  }
  else{
 
-     echo"Error:" .$conn->error;
+    
 
  }
 }
