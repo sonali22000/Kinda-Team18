@@ -105,8 +105,20 @@ include "headerr.php"?>
 
 
 
+<<<<<<< HEAD
 </script>
 <!--end of form validation-->
+=======
+        echo "Your information is added successflly";
+}
+else{
+        echo "Error:" . $conn->error;
+}
+}
+
+?>
+ 
+>>>>>>> 47204a48ec7f8922a7b9c42c8ce0c10ca5fdd1ee
 
 <?php include "footer1.php" ?>
 
