@@ -72,10 +72,9 @@
     <option value="EXCURSIONS"> EXCURSIONS </option>
     </select><br> <br>
 
+   <textarea name="description" class="form-control"  rows="3" placeholder="Description:"  required></textarea><br>
    
-   <input type="text" name="description" required placeholder="Description" class="form-control"> <br>
-
-
+ 
   <input type="date" name="startdate" required placeholder="Please Enter Program Start Date" class="form-control" > <br>
 
   <input type="date" name="enddate" required placeholder="Please Enter Program End Date" class="form-control" > <br>
@@ -137,7 +136,7 @@ if(isset($_POST['AddProgram'])){
    values('$pname','$description', '$startdate', '$enddate', '$capacity' , '$kidsid', '$teid')";
    if($conn->query($sql)===TRUE){
                
-     echo"Your datas are added successfully";
+     echo"You added the new program successfully";
 
  }
  else{

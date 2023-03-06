@@ -79,7 +79,7 @@ $row = mysqli_fetch_array($result)
 
             if ($query){
 
-                echo "<h2>Your Data Updated Successfully </h2>";
+                echo "<h2>Your  Updated the program Successfully </h2>";
             }
             else{
                 echo "<h2> Update failed </h2>";
@@ -97,7 +97,7 @@ $row = mysqli_fetch_array($result)
 
             if ($query){
 
-                echo "<h2> Your Data Deleted Successfully </h2>";
+                echo "<h2> You deleted the whole program successfully </h2>";
             }
             else{
                 echo "<h2> Delete failed </h2>";

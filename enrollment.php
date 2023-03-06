@@ -86,7 +86,7 @@ And we are ensure the best for your kid</p>
 
   
 
-  <input type="submit" value="Apply" name="Apply"> <span onmouseover="this.style.color='red';
+  <input type="submit" value="Enroll" name="Enroll"> <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
@@ -125,7 +125,7 @@ And we are ensure the best for your kid</p>
 
 //Getting values from end user
 
-if(isset($_POST['Apply'])){
+if(isset($_POST['Enroll'])){
    $programid=$_POST['programid'];
    $kidsid=$_POST['kidsid'];
    $enrollmentdate=$_POST['enrollmentdate'];
@@ -135,12 +135,12 @@ if(isset($_POST['Apply'])){
    values('$programid','$kidsid','$enrollmentdate','$academicyear')";
    if($conn->query($sql)===TRUE){
                
-     echo"Your datas are added successfully";
+     echo"You enrolled the program successfully";
 
  }
  else{
 
-    
+    echo"Error:" .$conn->error;
 
  }
 }
