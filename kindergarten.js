@@ -3,28 +3,59 @@
 //validateform for formindex
 function formindex(){  
 
-  //validating name
-  let fname=document.form1.fname.value.trim();
-  // to check if name is empty of not  
-  if (fname==null || fname==""){  
-    alert("Name can't be blank");  
-    return false;  
-  }
+  let fname=(document.form1.fname.value).trim();
+if (fname==null||fname== ""){
+  alert("Please enter a valid Kids Name.");
+  return false;
+}
+else if(fname.length<5){
+    alert("Kids Name must have at least 5 character");
+    return false;
+}
+else if(fname.length>20){  
+      alert("Kids Name can't more than 20 characters");  
+      return false;  
+    }
   
-  let lname=document.form1.lname.value.trim();
-  // to check if last name is empty if not  
-  if (lname==null || lname==""){  
-    alert("Last Name can't be blank");  
-    return false;  
-  }
+    let lname=(document.form1.lname.value).trim();
+if (lname==null||lname== ""){
+  alert("Please enter a valid Kids Name.");
+  return false;
+}
+else if(lname.length<5){
+    alert("Kids Name must have at least 5 character");
+    return false;
+}
+else if(lname.length>20){  
+      alert("Kids Name can't more than 20 characters");  
+      return false;  
+    }
   
-   //validating email 
-   let emailid=document.form1.emailid.value.trim();
-      if (emailid==null || emailid==""){  
-          alert("Email can't be blank");  
-          return false;  
-        }
-      }
+  let contactno=(document.form1.contactno.value).trim();
+ if(contactno.length<10){
+      alert("Enter 10 digits phone number");
+    return false;
+  }
+  else if(contactno.length>10){
+      alert("Enter 10 digits phone number");
+    return false;
+  }
+
+  let emailid=(document.form1.emailid.value).trim();
+  if (emailid==null || emailid==""){  
+      alert("Email must be entered");  
+      return false;  
+    }
+    let address=(document.form1.address.value).trim();
+    if(address==null || address==""){
+      alert("Address can not be blank");
+      return false;
+    }
+    else if(address.length<15){
+      alert("Address must have 15 characters");
+      return false;
+    }
+  }
 
 //validateform for formprogram
 function formproramval(){  
