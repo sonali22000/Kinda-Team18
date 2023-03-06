@@ -34,7 +34,7 @@ include "headerr.php"?>
     <input id="address" type="text" name="address" class="form-control" placeholder="Address:" required><br>
     
    
-    <input type="Submit" value="CreateStudentProfile" name="submit" <span onmouseover="this.style.color='red';
+    <input type="Submit" value="CreateKidsProfile" name="submit" <span onmouseover="this.style.color='red';
 
            this.style.backgroundColor='black';
            this.style.fontSize='1em'; ";
