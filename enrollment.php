@@ -95,8 +95,7 @@ And we are ensure the best for your kid</p>
                  this.style.fontSize='1.1em';"; >
                  
   
-<br><li><a href="enrollment.php"><i class="material-icons" style="font-size:100px;color:RED;text-center;">book</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
-</span></li>
+
 
   <br> <br> <br> <br> <br> <br>
                 
