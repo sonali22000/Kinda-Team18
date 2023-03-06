@@ -76,7 +76,7 @@ if (capacity==null || capacity==""){
   alert("Please enter a valid capacity");  
   return false;  
 }
-else if(capacity.length<2){
+else if(capacity.length>2){
   alert("capacity can not be more than 99");
   return false;
 }
