@@ -1,7 +1,7 @@
 
 
 //validateform for formindex
-function validateForm(){  
+function formindex(){  
 
   //validating name
   let fname=document.form1.fname.value;  

@@ -78,7 +78,7 @@ include "headerr.php"?>
 <!--Creating form-->
 
     <div class="col-md-6" style="text-align:left;">
-    <form method="post" action="" onsubmit="return validateForm()"name="form1">
+    <form method="post" action="" onsubmit="return formindex()"name="form1">
     <input type="text" name="fname" required placeholder="First Name" class="form-control" ><br>
     <input type="text" name="lname" required placeholder="Last Name" class="form-control" ><br>
     <input type="text" name="address" required placeholder="Postal Address" class="form-control"><br>
