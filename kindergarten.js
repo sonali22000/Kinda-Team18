@@ -25,7 +25,22 @@ if (lname==null || lname==""){
         return false;  
       }
     }
+
+
+
 //validateform for formprogram
+function formproramval(){  
+  let description=document.formprogram.description.value;  
+
+if (description==null || description==""){  
+  alert("Please enter a valid description");  
+  return false;  
+}
+else if(description.length<3){
+  alert("description must have more than 3 characters");
+  return false;
+}
+}
 
 
 //validateform for forteachersinfo
