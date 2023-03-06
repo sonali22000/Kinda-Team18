@@ -28,7 +28,7 @@ include "headerr.php"?>
               <input id="parentsdetails" type="text" name="parentsdetails" class="form-control" placeholder="Example: Elisbeth-Mother" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <label for="email">email:</label>
+              <label for="KidsId">KidsId:</label>
               <input id="email" type="int" name="email" class="form-control" placeholder="Example: abcde@gmail.com" style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
@@ -39,10 +39,7 @@ include "headerr.php"?>
               <label for="dob">Kids Birth Day:</label>
               <input id="dob" type="date" name="dob" class="form-control" placeholder="Example: 05.05.2020" style="width: 500px" required>
             </div>
-            <div class="form-group my-4" style="color: black;>
-              <label for="phone">Contact Number:</label>
-              <input id="phone" type="int" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
-            </div>
+            
             <div class="form-group my-4" style="color: black;>
               <button type="submit" class="btn btn btn-red btn-outline" >
               <input type="Submit" value="Submit" name="submit" style="color:RED; font-weight: bold; background-color: Yellow;" class="btn btn btn-yellow btn-outline">
@@ -66,7 +63,7 @@ if (isset($_POST ['submit'])){
    
     
     include 'db.php';
-    $sql = "insert into enrollmentform (kidsname,parentsnameandrelationship,email,address,dob,phone)
+    $sql = "insert into enrollment (kidsname,parentsnameandrelationship,kidsid,address,dob,phone)
     values('$kidsname','$parentsnameandrelationship','$email','$dob','$address','$dob','$phone')"; 
 
     if ($conn ->query($sql) === TRUE){
