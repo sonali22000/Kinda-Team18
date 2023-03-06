@@ -3,13 +3,24 @@ $title="crup app for kindergarten";
 include "headerr.php"?>
 
 
-<!-- creating form for enrollment-->
-
-<from method="post" action="">
 <div class="row">
+ <div class="col-md-6" style="text-align:left;">
+ <br><br>
+    <h5><b>WELCOME TO SCHOOL</b></h5>
+    <p>Children love knowing that theyre appreciated by the people around them. Praise them, and let them know that they are a blessing to this world. Each one is unique, and they will leave their own marks in this world..</p>
+      <img src="image/enrollment.jpeg" class="kids-img" alt="image" class="rounded" width="550" height="400" style="align-items: center;">
+      
+    </div>
 
+<!-- creating form for enrollmentForm-->
+<div class="col-md-6" style="text-align:left;">
+
+
+<from method="post" action="" onsubmit="return formkval()" name="formk">
+<div class="row">
+        <br><br>
          <div class="form-group mb-4" style="color: black;>
-              <label for="kidsname">Kids Name:</label>
+              <label for= "kidsname" >Kids Name:</label>
               <input name="kidsname" type="text" name="kidsname" class="form-control" placeholder="Example: Noah Fedrick" style="width: 500px" required></input>
             </div>
             <div class="form-group my-4" style="color: black;>
@@ -33,8 +44,8 @@ include "headerr.php"?>
               <input id="phone" type="int" name="phone" class="form-control" placeholder="Example: 01234567890"  style="width: 500px" required>
             </div>
             <div class="form-group my-4" style="color: black;>
-              <button type="submit" class="btn btn btn-yellow btn-outline" >
-              <input type="Submit" value="Submit" name="submit" style="color:coral; font-weight: bold; background-color: blanchedalmond;" class="btn btn btn-yellow btn-outline">
+              <button type="submit" class="btn btn btn-red btn-outline" >
+              <input type="Submit" value="Submit" name="submit" style="color:RED; font-weight: bold; background-color: Yellow;" class="btn btn btn-yellow btn-outline">
             <div>
         
         </div>
@@ -62,10 +73,10 @@ if (isset($_POST ['submit'])){
         echo "Your information is added Successfully";
     }
     else {
-      ;
+        
     }
 
-}
+  }
 
 
 ?>
