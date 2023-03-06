@@ -50,7 +50,8 @@ $conn-> close();
 <div class="col-md-6">
 <br>  
 <a class="btn btn-danger" href="createprogram.php" role="button">Back</a>
-<a class="btn btn-danger" href="entollment.php" role="button">Go to enrollment page</a>
+<br> <br>
+<a class="btn btn-danger" href="enrollment.php" role="button">Go to enrollment page</a>
 </div>
 <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
