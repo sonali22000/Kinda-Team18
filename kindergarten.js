@@ -25,16 +25,10 @@ function validateForm(){
           return false;  
         }
       }
-<<<<<<< HEAD
-    }
 
-
-
-=======
->>>>>>> 157e9a9e631ce9f2f17a300d708f5fde773faa13
 //validateform for formprogram
 function formproramval(){  
-  let description=document.formprogram.description.value;  
+let description=document.formprogram.description.value;  
 
 if (description==null || description==""){  
   alert("Please enter a valid description");  
@@ -43,6 +37,29 @@ if (description==null || description==""){
 else if(description.length<3){
   alert("description must have more than 3 characters");
   return false;
+}
+
+let capacity=document.formprogram.capacity.value;  
+
+if (capacity==null || capacity==""){  
+  alert("Please enter a valid capacity");  
+  return false;  
+}
+else if(capacity.length<2){
+  alert("capacity can not be more than 99");
+  return false;
+}
+let kidsid=document.formprogram.kidsid.value;  
+
+if (kidsid==null || kidsid==""){  
+  alert("Please enter a valid kidsid");  
+  return false;  
+}
+let teid=document.formprogram.teid.value;  
+
+if (teid==null || teid==""){  
+  alert("Please enter a valid teid");  
+  return false;  
 }
 }
 
