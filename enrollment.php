@@ -140,7 +140,7 @@ if(isset($_POST['Apply'])){
  }
  else{
 
-     echo"Error:" .$conn->error;
+    
 
  }
 }

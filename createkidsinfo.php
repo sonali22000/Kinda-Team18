@@ -30,7 +30,7 @@ include "headerr.php"?>
     <input id="parentsname" type="text" name="parentsname" class="form-control" placeholder="Parents Name:" required><br>
     <input id="dob" type="date" name="dob" class="form-control" placeholder="Kids Birth Day:" required><br>
     <input id="phone" type="int" name="phone" class="form-control" placeholder="Contact Number:" required><br>
-    <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" required><br>
+    <input  type="email" name="email" class="form-control" placeholder="E-mail Address:" required><br>
     <input id="address" type="text" name="address" class="form-control" placeholder="Address:" required><br>
     
     <input type="Submit" value="Submit" name="submit" ><span onmouseover="this.style.color='red';

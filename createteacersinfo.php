@@ -29,7 +29,7 @@ include "headerr.php"?>
     <input  type="int" name="teid" class="form-control" placeholder="Teacher ID:"required ><br>
     <input  type="text" name="tname" class="form-control" placeholder="Teacher Name:" required><br>
     <input  type="int" name="phone" class="form-control" placeholder="Phone Number:" required><br>
-    <input  type="text" name="email" class="form-control" placeholder="E-mail Address:" required><br>
+    <input  type="email" name="email" class="form-control" placeholder="E-mail Address:" required><br>
     <input  type="text" name="address" class="form-control" placeholder="Address:" required><br>
     <textarea name="bio" class="form-control"  rows="3" placeholder="Bio:"  required></textarea><br>
     
