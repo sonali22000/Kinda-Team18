@@ -68,35 +68,31 @@ And we are ensure the best for your kid</p>
 </div>
 
    <div class="col-md-6">
-   <select name="pname">
-    <option value="ORDER BOOK LIST"> ORDER BOOK LIST </option>
-    <option value="ORDER SCHOOL BAG"> ORDER SCHOOL BAG </option>
+  
     
-   
-    </select><br> <br>
 
    
-   <input type="text" name="KidsName" required placeholder="KidsName" class="form-control"> <br>
+   <input type="int" name="programid" required placeholder="programid" class="form-control"> <br>
 
 
-  <input type="text" name="ParentsNameandRelationship" required placeholder="ParentsNameandRelationship" class="form-control" > <br>
+  <input type="int" name="kidsid" required placeholder="Kidsid" class="form-control" > <br>
 
-  <input type="int" name="KidsId" required placeholder="KidsId" class="form-control" > <br>
+  <input type="date" name="enrollmentdate" required placeholder="Enrollmentdate" class="form-control" > <br>
 
 
-  <input type="int" name="Address" required placeholder="Address" class="form-control" >  <br> 
+  <input type="int" name="academicyear" required placeholder="Academicyear" class="form-control" >  <br> 
 
-  <input type="int" name="KidsBirthDay" required placeholder="KidsBirthDay" class="form-control" > <br> 
+ 
 
   
 
-  <input type="submit" value="Apply" name="Apply" > <span onmouseover="this.style.color='red';
+  <input type="submit" value="Apply" name="Apply" <span onmouseover="this.style.color='red';
                  this.style.backgroundColor='black';
                  this.style.fontSize='1em'; ";
       onmouseout="
                  this.style.color='blue';
                  this.style.backgroundColor='white';
-                 this.style.fontSize='1.1em';"; > 
+                 this.style.fontSize='1.1em';"; >
                  
   
 <br><li><a href="enrollment.php"><i class="material-icons" style="font-size:100px;color:RED;text-center;">book</i>Enrollment Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="enrollmentform.php"></a></li>
@@ -123,14 +119,13 @@ And we are ensure the best for your kid</p>
 //Getting values from end user
 
 if(isset($_POST['Apply'])){
-   $KidsName=$_POST['KidsName'];
-   $ParentsNameandRelationship=$_POST['ParentsNameandRelationship'];
-   $KidsId=$_POST['KidsId'];
-   $Address=$_POST['Address'];
-   $KidsBirthDay=$_POST['KidsBirthDay'];
+   $programid=$_POST['programid'];
+   $kidsid=$_POST['kidsid'];
+   $enrollmentdate=$_POST['enrollmentdate'];
+   $academicyear=$_POST['academicyear'];
    include 'db.php';
-   $sql="insert into program(KidsName,ParentsNameandRelationship,KidsId,Address,KidsBirthDay)
-   values('$KidsName','$ParentsNameandRelationship','$KidsId','$Address','$KidsBirthDay')";
+   $sql="insert into enrollment(programid,kidsid,enrollmentdate,academicyear)
+   values('$programid','$kidsid','$enrollmentdate','$academicyear')";
    if($conn->query($sql)===TRUE){
                
      echo"Your datas are added successfully";
