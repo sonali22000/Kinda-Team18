@@ -115,7 +115,7 @@ include "headerr.php"?>
 
 <?php
 
-if (isset($_POST ['submit'])){
+if (isset($_POST ['Apply'])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $address = $_POST['address'];
