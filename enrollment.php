@@ -10,10 +10,11 @@
         <div class="col-md-12 text-center">
         <h4><b><i>ADMISSION OPEN FOR 2023</i></b></h4>
         </div>
+        
     </div>  
     <div class="row">
         <div class="col-md-12 text-center">
-        <h5><b> Download our enrollment form and email to</b></h5>
+        <h5><b> Download our enrollment form and email to</b></h5><a class="btn btn-danger""button style="width:250px;" role="button" href="enrollmentfoam.pdf"><b>Enrollment Form</a>
         </div>
     </div>
     <div class="row">
@@ -57,6 +58,7 @@
 <br><br>Educating your child privately is simply too large an investment to make without seeking professional advice.
 And we are ensure the best for your kid</p>
 <img src="image/bb.jpg" alt="image" class="rounded" width="550" height="285" style="align-items: right;">
+
 
 
 
