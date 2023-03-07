@@ -127,7 +127,7 @@ if (isset($_POST ['Apply'])){
     values('$fname','$lname','$address','$postalcode','$contactno','$emailid')"; 
 
     if ($conn ->query($sql) === TRUE){
-        echo "Your information is added Successfully";
+        echo "Your information is added Successfully. We will contact you ,Thank you";
     }
     else {
     }
