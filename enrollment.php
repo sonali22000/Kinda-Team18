@@ -67,6 +67,7 @@ And we are ensure the best for your kid</p>
 
 </div>
 
+
    <div class="col-md-6">
   
     
