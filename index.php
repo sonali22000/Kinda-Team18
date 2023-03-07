@@ -134,7 +134,7 @@ if (isset($_POST ['submit'])){
 
 }
 
-
+?>
 <?php include "footer1.php" ?>
 
 
