@@ -113,8 +113,27 @@ include "headerr.php"?>
 
 <!--Getting values from end user-->
 
+<?php
 
-<!--end of form validation-->
+if (isset($_POST ['submit'])){
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $address = $_POST['address'];
+    $postalcode	= $_POST['postalcode'];
+    $contactno = $_POST['contactno'];
+    $emailid = $_POST['emailid'];
+    include 'db.php';
+    $sql = "insert into teacherscareer(fname,lname,address,postalcode,contactno,emailid)
+    values('$fname','$lname','$address','$postalcode','$contactno','$emailid')"; 
+
+    if ($conn ->query($sql) === TRUE){
+        echo "Your information is added Successfully";
+    }
+    else {
+    }
+
+}
+
 
 <?php include "footer1.php" ?>
 
